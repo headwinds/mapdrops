@@ -5,3 +5,8 @@
 .example-spacer {
   flex: 1 1 auto;
 }
+
+mgl-map {
+  height: 60vh;
+  width: 100vw;
+}

@@ -2,9 +2,16 @@
 
 Plan your run and where to stash your gear along the way. Often on long, remote runs, there is no reliable signals so this PWA will feature offline support and syncing.
 
-# Learning angular
+# Learn
 
 [Angular 5 with Material](https://coursetro.com/posts/code/113/How-to-Build-an-Angular-5-Material-App)
+[Angular 4 Tutorial - GPS Activity Mapping App - Wes Doyle](https://brfilm.net/v-angular-4-tutorial-gps-activity-mapping-app-EHdSb279Lzg.html)
+[TOUR DE FRANCE VISUALIZATION](http://abenrob.com/tdf-maptime/docs/)
+[Convert GPX into GeoJSON for Mapbox](https://github.com/mapbox/togeojson)
+[Angular Firebase Mapbox](https://angularfirebase.com/lessons/build-realtime-maps-in-angular-with-mapbox-gl/)
+[GPX to GeoJSON in MongoDB with Node.js](http://kalapun.com/posts/gpx-to-geojson-in-mongodb-with-node-js/)
+[exploring ngx-mapbox-gl on stackblitz](https://stackblitz.com/edit/ngx-mapbox-gl)
+[https://github.com/Wykks/ngx-mapbox-gl](https://github.com/Wykks/ngx-mapbox-gl)
 
 # Ng5Material
 

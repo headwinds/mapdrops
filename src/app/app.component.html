@@ -25,6 +25,21 @@
 <mat-card *ngIf="answerDisplay">
   <h1>{{ answerDisplay }}, you're damn right.</h1>
 </mat-card>
+
+
+  <mgl-map
+    [style]="'mapbox://styles/mapbox/streets-v9'"
+    [zoom]="[9]"
+    [center]="[-74.50, 40]"
+  >
+  <!-- <mgl-geojson-source
+     id="warmup"
+     [data]="/assets/data/springwarmup/spring_warm_up.json"
+   ></mgl-geojson-source> -->
+  </mgl-map>
+
+
+
 <button mat-button>{{title}}</button>
 
 <router-outlet></router-outlet>
