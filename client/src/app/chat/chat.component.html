@@ -13,7 +13,7 @@
           <span> {{message.content}} </span>
         </p>
         <p mat-line *ngIf="message.action === action.JOINED" class="chat-notification">
-          <span> <b>{{message.from.name}}</b> joined to the conversation. </span>
+          <span class="chat-joined"> <b>{{message.from.name}}</b> joined to the conversation. </span>
         </p>
         <p mat-line *ngIf="message.action === action.RENAME" class="chat-notification">
           <span> <b>{{message.content.previousUsername}}</b> is now <b>{{message.content.username}}</b> </span>
@@ -23,11 +23,11 @@
     <div class="chat-footer-container">
       <mat-icon>message</mat-icon>
       <mat-form-field class="chat-input">
-        <input matInput 
-               #inputMessage 
-               maxlength="140" 
-               placeholder="Type your message" 
-               [(ngModel)]="messageContent" 
+        <input matInput
+               #inputMessage
+               maxlength="140"
+               placeholder="Type your message"
+               [(ngModel)]="messageContent"
                (keyup.enter)="sendMessage(messageContent)">
         <mat-hint align="end">{{inputMessage.value.length}}/140</mat-hint>
       </mat-form-field>

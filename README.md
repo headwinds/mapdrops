@@ -13,6 +13,9 @@ Plan your run and where to stash your gear along the way. Often on long, remote 
 * [exploring ngx-mapbox-gl on stackblitz](https://stackblitz.com/edit/ngx-mapbox-gl)
 * [https://github.com/Wykks/ngx-mapbox-gl](https://github.com/Wykks/ngx-mapbox-gl)
 * [Angular Chat](https://medium.com/dailyjs/real-time-apps-with-typescript-integrating-web-sockets-node-angular-e2b57cbd1ec1)
+* [social logins](https://github.com/sabyasachibiswal/angular5-social-login)
+* [firebase & mapbox](https://angularfirebase.com/lessons/build-realtime-maps-in-angular-with-mapbox-gl/)
+* [upgrade to firestore](https://angularfirebase.com/lessons/firestore-with-angularfire-basics/)
 
 # Wiki
 
@@ -22,9 +25,21 @@ Plan your run and where to stash your gear along the way. Often on long, remote 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.4.
 
-## Development server
+## Development client
+
+```
+cd client
+ng serve
+```
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Development Server
+
+```
+cd server
+gulp watch
+```
 
 ## Code scaffolding
 

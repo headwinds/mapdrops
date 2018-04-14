@@ -55,6 +55,7 @@ export class ChatComponent implements OnInit, AfterViewInit {
   constructor(private socketService: SocketService, public dialog: MatDialog) {}
 
   ngOnInit(): void {
+    console.log('chat init');
     this.initModel();
     // Using timeout due to https://github.com/angular/angular/issues/14748
     setTimeout(() => {

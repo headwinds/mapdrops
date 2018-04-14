@@ -1,22 +1,32 @@
 {
-  "name": "socket-io-typescript-example",
+  "name": "mapdrops-api",
   "version": "0.0.1",
   "description": "A socket.io example written in TypeScript",
   "main": "index.js",
-  "author": "Luis Aviles",
   "license": "MIT",
   "scripts": {
     "start": "node dist/index.js"
   },
   "dependencies": {
     "@types/express": "~4.0.36",
+    "@types/passport": "^0.4.4",
+    "@types/passport-facebook": "^2.1.8",
+    "@types/passport-google-oauth2": "^0.1.2",
     "@types/socket.io": "~1.4.29",
+    "angular5-social-login": "^1.0.9",
+    "cors": "^2.8.4",
     "express": "~4.10.0",
-    "socket.io": "~2.0.3"
+    "gulp-livereload": "^3.8.1",
+    "passport": "^0.4.0",
+    "passport-google-oauth2": "^0.1.6",
+    "passport-google-oauth20": "^1.0.0",
+    "socket.io": "~2.0.3",
+    "ts-node": "^5.0.1"
   },
   "devDependencies": {
     "gulp": "~3.9.1",
-    "gulp-typescript": "~3.2.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-typescript": "^3.2.4",
     "typescript": "~2.5.0"
   }
 }

@@ -6,10 +6,52 @@
   <base href="/">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-signin-client_id" content="347820260770-3h2jms65i96gur0s5nevtgl4h9gch1of.apps.googleusercontent.com">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+
+
+  <script>
+  // https://developers.google.com/identity/sign-in/web/sign-in
+function onSignIn(googleUser) {
+  var profile = googleUser.getBasicProfile();
+  console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+  console.log('Name: ' + profile.getName());
+  console.log('Image URL: ' + profile.getImageUrl());
+  console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+</script>
+<script>
+window.fbAsyncInit = function() {
+  FB.init({
+    appId: '824907610982622',
+    xfbml: true,
+    version: 'v2.8'
+  });
+
+  FB.getLoginStatus(function(response) {
+    //statusChangeCallback(response);
+  });
+};
+
+(function(d, s, id) {
+  var js,
+    fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {
+    return;
+  }
+  js = d.createElement(s);
+  js.id = id;
+  js.src = '//connect.facebook.net/en_US/sdk.js';
+  fjs.parentNode.insertBefore(js, fjs);
+})(document, 'script', 'facebook-jssdk');
+</script>
 </head>
 <body>
+
   <tcc-root></tcc-root>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </body>
+
 </html>

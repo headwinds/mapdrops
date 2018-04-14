@@ -1,8 +1,6 @@
 {
-  "files": [
-    "src/*.ts",
-    "src/model/*.ts"
-  ],
+  "files": ["src/*.ts", "src/model/*.ts"],
+  "compileOnSave": true,
   "compilerOptions": {
     "noImplicitAny": true,
     "target": "es5"

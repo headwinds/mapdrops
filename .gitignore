@@ -11,6 +11,10 @@
 /server/node_modules
 /client/node_modules
 
+# environments
+/server/src/environments
+/client/src/environments
+
 # IDEs and editors
 /.idea
 .project
