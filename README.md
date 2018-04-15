@@ -29,6 +29,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ```
 cd client
+npm install
 ng serve
 ```
 
@@ -38,7 +39,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 ```
 cd server
-gulp watch
+npm install
+gulp serve
 ```
 
 ## Code scaffolding

@@ -1,6 +1,16 @@
 <div gpx>
 <p>
   {{instructions}}
-  
+
 </p>
+
+  <div>
+      {{ (item | async)?.title }}
+    </div>
+    <ul>
+      <li *ngFor="let item of items | async">
+        {{ item.title }}
+      </li>
+    </ul>
+
 </div>

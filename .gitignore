@@ -15,6 +15,7 @@
 /server/src/environments
 /client/src/environments
 
+
 # IDEs and editors
 /.idea
 .project
