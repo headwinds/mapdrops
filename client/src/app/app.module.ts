@@ -16,12 +16,13 @@ import {
 import { MapBoxComponent } from './map-box/map-box.component';
 import { MapService } from './map.service';
 import { AngularFirestore } from 'angularfire2/firestore';
-
 import { environment } from '../environments/environment';
-export const firebaseConfig = environment.firebaseConfig;
-
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { ForestComponent } from './forest/forest.component';
+import { MessageService } from './chat/shared/services/message-service';
+
+export const firebaseConfig = environment.firebaseConfig;
 
 // Configs
 export function getAuthServiceConfigs() {
@@ -41,15 +42,17 @@ export function getAuthServiceConfigs() {
 const routes: Routes = [
   { path: '', component: AppComponent },
   { path: 'auth/google', component: AppComponent },
-  { path: 'hello', component: AppComponent }
+  { path: 'hello', component: AppComponent },
+  { path: 'forest', component: ForestComponent },
+  { path: 'map', component: MapBoxComponent }
 ];
 
 @NgModule({
-  declarations: [AppComponent, GpxComponent, MapBoxComponent],
+  declarations: [AppComponent, GpxComponent, MapBoxComponent, ForestComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, { enableTracing: true }),
     AppRoutingModule,
     ChatModule,
     SharedModule,
@@ -63,7 +66,8 @@ const routes: Routes = [
       useFactory: getAuthServiceConfigs
     },
     MapService,
-    AngularFirestore
+    AngularFirestore,
+    MessageService
   ],
   bootstrap: [AppComponent]
 })

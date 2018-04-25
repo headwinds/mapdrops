@@ -16,6 +16,7 @@ Plan your run and where to stash your gear along the way. Often on long, remote 
 * [social logins](https://github.com/sabyasachibiswal/angular5-social-login)
 * [firebase & mapbox](https://angularfirebase.com/lessons/build-realtime-maps-in-angular-with-mapbox-gl/)
 * [upgrade to firestore](https://angularfirebase.com/lessons/firestore-with-angularfire-basics/)
+* [tech tree](https://github.com/ldd/tech-tree-js)
 
 # Wiki
 

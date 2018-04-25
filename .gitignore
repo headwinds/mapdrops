@@ -12,9 +12,8 @@
 /client/node_modules
 
 # environments
-/server/src/environments
-/client/src/environments
-
+/server/src/environments/*.js
+/client/src/environments/*.js
 
 # IDEs and editors
 /.idea
@@ -49,5 +48,3 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
-
-/src/config.js

@@ -1,0 +1,424 @@
+Name,Link,Category
+What I Learned Tracking My Time At Techstars,https://chrisalbon.com/articles/what_i_learned_from_tracking_my_time_at_techstars/,None
+Health System Destruction During The Mozambican Civil War,https://chrisalbon.com/articles/health_system_destruction_renamo_mozambique/,None
+Health System Reconstruction In Post-War Kosovo,https://chrisalbon.com/articles/health_system_reconstruction_post_war_kosovo/,None
+The Problem Of Rebel Mobilization,https://chrisalbon.com/articles/puzzle_of_rebel_mobilization/,None
+The Structure Of Health Systems,https://chrisalbon.com/articles/health_systems/,None
+Transpose A Vector Or Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/transpose_a_vector_or_matrix/,"Vectors, Matrices, And Arrays"
+Selecting Elements In An Array,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/selecting_elements_in_an_array/,"Vectors, Matrices, And Arrays"
+Reshape An Array,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/reshape_an_array/,"Vectors, Matrices, And Arrays"
+Invert A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/invert_a_matrix/,"Vectors, Matrices, And Arrays"
+Getting The Diagonal Of A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/getting_the_diagonal_of_a_matrix/,"Vectors, Matrices, And Arrays"
+Flatten A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/flatten_a_matrix/,"Vectors, Matrices, And Arrays"
+Find The Rank Of A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/find_the_rank_of_a_matrix/,"Vectors, Matrices, And Arrays"
+Find The Maximum And Minimum,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/find_maximum_and_minimum/,"Vectors, Matrices, And Arrays"
+Describe An Array,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/describe_a_matrix/,"Vectors, Matrices, And Arrays"
+Create A Vector,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/create_a_vector/,"Vectors, Matrices, And Arrays"
+Create A Sparse Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/create_a_sparse_matrix/,"Vectors, Matrices, And Arrays"
+Create A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/create_a_matrix/,"Vectors, Matrices, And Arrays"
+Converting A Dictionary Into A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/converting_a_dictionary_into_a_matrix/,"Vectors, Matrices, And Arrays"
+Calculate The Trace Of A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/calculate_the_trace_of_a_matrix/,"Vectors, Matrices, And Arrays"
+Calculate The Determinant Of A Matrix,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/calculate_the_determinant_of_a_matrix/,"Vectors, Matrices, And Arrays"
+"Calculate The Average, Variance, And Standard Deviation",https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/calculate_average_variance_and_standard_deviation/,"Vectors, Matrices, And Arrays"
+Calculate Dot Product Of Two Vectors,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/calculate_dot_product_of_two_vectors/,"Vectors, Matrices, And Arrays"
+Apply Operations To Elements,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/apply_operations_to_elements/,"Vectors, Matrices, And Arrays"
+Adding And Subtracting Matrices,https://chrisalbon.com/machine_learning/vectors_matrices_and_arrays/adding_and_subtracting_matrices/,"Vectors, Matrices, And Arrays"
+Loading Features From Dictionaries,https://chrisalbon.com/machine_learning/basics/loading_features_from_dictionaries/,Basics
+Loading scikit-learn's Boston Housing Dataset,https://chrisalbon.com/machine_learning/basics/loading_scikit-learns_boston_housing_dataset/,Basics
+Loading scikit-learn's Digits Dataset,https://chrisalbon.com/machine_learning/basics/loading_scikit-learns_digits-dataset/,Basics
+Loading scikit-learn's Iris Dataset,https://chrisalbon.com/machine_learning/basics/loading_scikit-learns_iris_dataset/,Basics
+Make Simulated Data For Classification,https://chrisalbon.com/machine_learning/basics/make_simulated_data_for_classification/,Basics
+Make Simulated Data For Clustering,https://chrisalbon.com/machine_learning/basics/make_simulated_data_for_clustering/,Basics
+Make Simulated Data For Regression,https://chrisalbon.com/machine_learning/basics/make_simulated_data_for_regression/,Basics
+Perceptron In Scikit,https://chrisalbon.com/machine_learning/basics/perceptron_in_scikit-learn/,Basics
+Saving Machine Learning Models,https://chrisalbon.com/machine_learning/basics/saving_machine_learning_models/,Basics
+Convert Pandas Categorical Data For Scikit-Learn,https://chrisalbon.com/machine_learning/preprocessing_structured_data/convert_pandas_categorical_column_into_integers_for_scikit-learn/,Preprocessing Structured Data
+Delete Observations With Missing Values,https://chrisalbon.com/machine_learning/preprocessing_structured_data/delete_observations_with_missing_values/,Preprocessing Structured Data
+Deleting Missing Values,https://chrisalbon.com/machine_learning/preprocessing_structured_data/deleting_missing_values/,Preprocessing Structured Data
+Detecting Outliers,https://chrisalbon.com/machine_learning/preprocessing_structured_data/detecting_outliers/,Preprocessing Structured Data
+Discretize Features,https://chrisalbon.com/machine_learning/preprocessing_structured_data/discretize_features/,Preprocessing Structured Data
+Encoding Ordinal Categorical Features,https://chrisalbon.com/machine_learning/preprocessing_structured_data/encoding_ordinal_categorical_features/,Preprocessing Structured Data
+Handling Imbalanced Classes With Downsampling,https://chrisalbon.com/machine_learning/preprocessing_structured_data/handling_imbalanced_classes_with_downsampling/,Preprocessing Structured Data
+Handling Imbalanced Classes With Upsampling,https://chrisalbon.com/machine_learning/preprocessing_structured_data/handling_imbalanced_classes_with_upsampling/,Preprocessing Structured Data
+Handling Outliers,https://chrisalbon.com/machine_learning/preprocessing_structured_data/handling_outliers/,Preprocessing Structured Data
+Impute Missing Values With Means,https://chrisalbon.com/machine_learning/preprocessing_structured_data/impute_missing_values_with_means/,Preprocessing Structured Data
+Imputing Missing Class Labels,https://chrisalbon.com/machine_learning/preprocessing_structured_data/imputing_missing_class_labels/,Preprocessing Structured Data
+Imputing Missing Class Labels Using k-Nearest Neighbors,https://chrisalbon.com/machine_learning/preprocessing_structured_data/imputing_missing_class_labels_using_k-nearest_neighbors/,Preprocessing Structured Data
+Normalizing Observations,https://chrisalbon.com/machine_learning/preprocessing_structured_data/normalizing_observations/,Preprocessing Structured Data
+One-Hot Encode Features With Multiple Labels,https://chrisalbon.com/machine_learning/preprocessing_structured_data/one-hot_encode_features_with_multiple_labels/,Preprocessing Structured Data
+One-Hot Encode Nominal Categorical Features,https://chrisalbon.com/machine_learning/preprocessing_structured_data/one-hot_encode_nominal_categorical_features/,Preprocessing Structured Data
+Preprocessing Categorical Features,https://chrisalbon.com/machine_learning/preprocessing_structured_data/preprocessing_categorical_features/,Preprocessing Structured Data
+Preprocessing Iris Data,https://chrisalbon.com/machine_learning/preprocessing_structured_data/preprocessing_iris_data/,Preprocessing Structured Data
+Rescale A Feature,https://chrisalbon.com/machine_learning/preprocessing_structured_data/rescale_a_feature/,Preprocessing Structured Data
+Standardize A Feature,https://chrisalbon.com/machine_learning/preprocessing_structured_data/standardize_a_feature/,Preprocessing Structured Data
+Binarize Images,https://chrisalbon.com/machine_learning/preprocessing_images/binarize_image/,Preprocessing Images
+Blurring Images,https://chrisalbon.com/machine_learning/preprocessing_images/blurring_images/,Preprocessing Images
+Cropping Images,https://chrisalbon.com/machine_learning/preprocessing_images/cropping_images/,Preprocessing Images
+Detect Edges,https://chrisalbon.com/machine_learning/preprocessing_images/detect_edges/,Preprocessing Images
+Enhance Contrast Of Color Image,https://chrisalbon.com/machine_learning/preprocessing_images/enhance_contrast_of_color_image/,Preprocessing Images
+Enhance Contrast Of Greyscale Image,https://chrisalbon.com/machine_learning/preprocessing_images/enhance_contrast_of_greyscale_image/,Preprocessing Images
+Harris Corner Detector,https://chrisalbon.com/machine_learning/preprocessing_images/harris_corner_detector/,Preprocessing Images
+Installing OpenCV,https://chrisalbon.com/machine_learning/preprocessing_images/installing_opencv/,Preprocessing Images
+Isolate Colors,https://chrisalbon.com/machine_learning/preprocessing_images/isolate_colors/,Preprocessing Images
+Load Images,https://chrisalbon.com/machine_learning/preprocessing_images/load_images/,Preprocessing Images
+Remove Backgrounds,https://chrisalbon.com/machine_learning/preprocessing_images/remove_backgrounds/,Preprocessing Images
+Save Images,https://chrisalbon.com/machine_learning/preprocessing_images/save_images/,Preprocessing Images
+Sharpen Images,https://chrisalbon.com/machine_learning/preprocessing_images/sharpen_images/,Preprocessing Images
+Shi-Tomasi Corner Detector,https://chrisalbon.com/machine_learning/preprocessing_images/ski-tomasi_corner_detector/,Preprocessing Images
+Using Mean Color As A Feature,https://chrisalbon.com/machine_learning/preprocessing_images/using_mean_color_as_a_feature/,Preprocessing Images
+Bag Of Words,https://chrisalbon.com/machine_learning/preprocessing_text/bag_of_words/,Preprocessing Text
+Parse HTML,https://chrisalbon.com/machine_learning/preprocessing_text/parse_html/,Preprocessing Text
+Remove Punctuation,https://chrisalbon.com/machine_learning/preprocessing_text/remove_punctuation/,Preprocessing Text
+Remove Stop Words,https://chrisalbon.com/machine_learning/preprocessing_text/remove_stop_words/,Preprocessing Text
+Replace Characters,https://chrisalbon.com/machine_learning/preprocessing_text/replace_characters/,Preprocessing Text
+Stemming Words,https://chrisalbon.com/machine_learning/preprocessing_text/stemming_words/,Preprocessing Text
+Strip Whitespace,https://chrisalbon.com/machine_learning/preprocessing_text/strip_whitespace/,Preprocessing Text
+Tag Parts Of Speech,https://chrisalbon.com/machine_learning/preprocessing_text/tag_parts_of_speech/,Preprocessing Text
+Term Frequency Inverse Document Frequency,https://chrisalbon.com/machine_learning/preprocessing_text/tf-idf/,Preprocessing Text
+Tokenize Text,https://chrisalbon.com/machine_learning/preprocessing_text/tokenize_text/,Preprocessing Text
+Break Up Dates And Times Into Multiple Features,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/break_up_dates_and_times_into_multiple_features/,Preprocessing Dates And Times
+Calculate Difference Between Dates And Times,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/calculate_difference_between_dates_and_times/,Preprocessing Dates And Times
+Convert Strings To Dates,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/convert_strings_to_dates/,Preprocessing Dates And Times
+Convert pandas Columns Time Zone,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/convert_pandas_column_timezone/,Preprocessing Dates And Times
+Encode Days Of The Week,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/encode_days_of_the_week/,Preprocessing Dates And Times
+Handling Missing Values In Time Series,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/handling_missing_values_in_time_series/,Preprocessing Dates And Times
+Handling Time Zones,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/handling_time_zones/,Preprocessing Dates And Times
+Lag A Time Feature,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/lag_a_time_feature/,Preprocessing Dates And Times
+Rolling Time Window,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/rolling_time_windows/,Preprocessing Dates And Times
+Select Date And Time Ranges,https://chrisalbon.com/machine_learning/preprocessing_dates_and_times/select_date_and_time_ranges/,Preprocessing Dates And Times
+Dimensionality Reduction On Sparse Feature Matrix,https://chrisalbon.com/machine_learning/feature_engineering/dimensionality_reduction_on_sparse_feature_matrix/,Feature Engineering
+Dimensionality Reduction With Kernel PCA,https://chrisalbon.com/machine_learning/feature_engineering/dimensionality_reduction_with_kernel_pca/,Feature Engineering
+Dimensionality Reduction With PCA,https://chrisalbon.com/machine_learning/feature_engineering/dimensionality_reduction_with_pca/,Feature Engineering
+Feature Extraction With PCA,https://chrisalbon.com/machine_learning/feature_engineering/feature_extraction_with_pca/,Feature Engineering
+Group Observations Using K-Means Clustering,https://chrisalbon.com/machine_learning/feature_engineering/group_observations_using_clustering/,Feature Engineering
+Selecting The Best Number Of Components For LDA,https://chrisalbon.com/machine_learning/feature_engineering/select_best_number_of_components_in_lda/,Feature Engineering
+Selecting The Best Number Of Components For TSVD,https://chrisalbon.com/machine_learning/feature_engineering/select_best_number_of_components_in_tsvd/,Feature Engineering
+Using Linear Discriminant Analysis For Dimensionality Reduction,https://chrisalbon.com/machine_learning/feature_engineering/lda_for_dimensionality_reduction/,Feature Engineering
+ANOVA F-value For Feature Selection,https://chrisalbon.com/machine_learning/feature_selection/anova_f-value_for_feature_selection/,Feature Selection
+Chi-Squared For Feature Selection,https://chrisalbon.com/machine_learning/feature_selection/chi-squared_for_feature_selection/,Feature Selection
+Drop Highly Correlated Features,https://chrisalbon.com/machine_learning/feature_selection/drop_highly_correlated_features/,Feature Selection
+Recursive Feature Elimination,https://chrisalbon.com/machine_learning/feature_selection/recursive_feature_elimination/,Feature Selection
+Variance Thresholding Binary Features,https://chrisalbon.com/machine_learning/feature_selection/variance_thresholding_binary_features/,Feature Selection
+Variance Thresholding For Feature Selection,https://chrisalbon.com/machine_learning/feature_selection/variance_thresholding_for_feature_selection/,Feature Selection
+Accuracy,https://chrisalbon.com/machine_learning/model_evaluation/accuracy/,Model Evaluation
+Create Baseline Classification Model,https://chrisalbon.com/machine_learning/model_evaluation/create_baseline_classification_model/,Model Evaluation
+Create Baseline Regression Model,https://chrisalbon.com/machine_learning/model_evaluation/create_baseline_regression_model/,Model Evaluation
+Cross Validation Pipeline,https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_pipeline/,Model Evaluation
+Cross Validation With Parameter Tuning Using Grid Search,https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search/,Model Evaluation
+Cross-Validation,https://chrisalbon.com/machine_learning/model_evaluation/cross-validaton/,Model Evaluation
+Custom Performance Metric,https://chrisalbon.com/machine_learning/model_evaluation/custom_performance_metric/,Model Evaluation
+F1 Score,https://chrisalbon.com/machine_learning/model_evaluation/f1_score/,Model Evaluation
+Generate Text Reports On Performance,https://chrisalbon.com/machine_learning/model_evaluation/generate_text_reports_on_performance/,Model Evaluation
+Nested Cross Validation,https://chrisalbon.com/machine_learning/model_evaluation/nested_cross_validation/,Model Evaluation
+Plot The Learning Curve,https://chrisalbon.com/machine_learning/model_evaluation/plot_the_learning_curve/,Model Evaluation
+Plot The Receiving Operating Characteristic Curve,https://chrisalbon.com/machine_learning/model_evaluation/plot_the_receiving_operating_characteristic_curve/,Model Evaluation
+Plot The Validation Curve,https://chrisalbon.com/machine_learning/model_evaluation/plot_the_validation_curve/,Model Evaluation
+Precision,https://chrisalbon.com/machine_learning/model_evaluation/precision/,Model Evaluation
+Recall,https://chrisalbon.com/machine_learning/model_evaluation/recall/,Model Evaluation
+Split Data Into Training And Test Sets,https://chrisalbon.com/machine_learning/model_evaluation/split_data_into_training_and_test_sets/,Model Evaluation
+Find Best Preprocessing Steps During Model Selection,https://chrisalbon.com/machine_learning/model_selection/find_best_preprocessing_steps_during_model_selection/,Model Selection
+Hyperparameter Tuning Using Grid Search,https://chrisalbon.com/machine_learning/model_selection/hyperparameter_tuning_using_grid_search/,Model Selection
+Hyperparameter Tuning Using Random Search,https://chrisalbon.com/machine_learning/model_selection/hyperparameter_tuning_using_random_search/,Model Selection
+Model Selection Using Grid Search,https://chrisalbon.com/machine_learning/model_selection/model_selection_using_grid_search/,Model Selection
+Pipelines With Parameter Optimization,https://chrisalbon.com/machine_learning/model_selection/pipelines_with_parameter_optimization/,Model Selection
+Adding Interaction Terms,https://chrisalbon.com/machine_learning/linear_regression/adding_interaction_terms/,Linear Regression
+Create Interaction Features,https://chrisalbon.com/machine_learning/linear_regression/create_interaction_features/,Linear Regression
+Effect Of Alpha On Lasso Regression,https://chrisalbon.com/machine_learning/linear_regression/effect_of_alpha_on_lasso_regression/,Linear Regression
+Lasso Regression,https://chrisalbon.com/machine_learning/linear_regression/lasso_regression/,Linear Regression
+Linear Regression,https://chrisalbon.com/machine_learning/linear_regression/linear_regression_scikitlearn/,Linear Regression
+Linear Regression Using Scikit-Learn,https://chrisalbon.com/machine_learning/linear_regression/linear_regression_using_scikit-learn/,Linear Regression
+Ridge Regression,https://chrisalbon.com/machine_learning/linear_regression/ridge_regression/,Linear Regression
+Selecting The Best Alpha Value In Ridge Regression,https://chrisalbon.com/machine_learning/linear_regression/selecting_best_alpha_value_in_ridge_regression/,Linear Regression
+Fast C Hyperparameter Tuning,https://chrisalbon.com/machine_learning/logistic_regression/fast_c_hyperparameter_tuning/,Logistic Regression
+Handling Imbalanced Classes In Logistic Regression,https://chrisalbon.com/machine_learning/logistic_regression/handling_imbalanced_classes_in_logistic_regression/,Logistic Regression
+Logistic Regression,https://chrisalbon.com/machine_learning/logistic_regression/logistic_regression/,Logistic Regression
+Logistic Regression On Very Large Data,https://chrisalbon.com/machine_learning/logistic_regression/logistic_regression_on_very_large_data/,Logistic Regression
+Logistic Regression With L1 Regularization,https://chrisalbon.com/machine_learning/logistic_regression/logistic_regression_with_l1_regularization/,Logistic Regression
+One Vs. Rest Logistic Regression,https://chrisalbon.com/machine_learning/logistic_regression/one-vs-rest_logistic_regression/,Logistic Regression
+Adaboost Classifier,https://chrisalbon.com/machine_learning/trees_and_forests/adaboost_classifier/,Trees And Forests
+Decision Tree Classifier,https://chrisalbon.com/machine_learning/trees_and_forests/decision_tree_classifier/,Trees And Forests
+Decision Tree Regression,https://chrisalbon.com/machine_learning/trees_and_forests/decision_tree_regression/,Trees And Forests
+Feature Importance,https://chrisalbon.com/machine_learning/trees_and_forests/feature_importance/,Trees And Forests
+Feature Selection Using Random Forest,https://chrisalbon.com/machine_learning/trees_and_forests/feature_selection_using_random_forest/,Trees And Forests
+Handle Imbalanced Classes In Random Forest,https://chrisalbon.com/machine_learning/trees_and_forests/handle_imbalanced_classes_in_random_forests/,Trees And Forests
+Random Forest Classifier,https://chrisalbon.com/machine_learning/trees_and_forests/random_forest_classifier/,Trees And Forests
+Random Forest Classifier Example,https://chrisalbon.com/machine_learning/trees_and_forests/random_forest_classifier_example/,Trees And Forests
+Random Forest Regression,https://chrisalbon.com/machine_learning/trees_and_forests/random_forest_regressor/,Trees And Forests
+Select Important Features In Random Forest,https://chrisalbon.com/machine_learning/trees_and_forests/select_important_features_in_random_forest/,Trees And Forests
+Titanic Competition With Random Forest,https://chrisalbon.com/machine_learning/trees_and_forests/titanic_competition_with_random_forest/,Trees And Forests
+Visualize A Decision Tree,https://chrisalbon.com/machine_learning/trees_and_forests/visualize_a_decision_tree/,Trees And Forests
+Identifying Best Value Of k,https://chrisalbon.com/machine_learning/nearest_neighbors/identifying_best_value_of_k/,Nearest Neighbors
+K-Nearest Neighbors Classification,https://chrisalbon.com/machine_learning/nearest_neighbors/k-nearest_neighbors_classifer/,Nearest Neighbors
+Radius-Based Nearest Neighbor Classifier,https://chrisalbon.com/machine_learning/nearest_neighbors/radius_based_nearest_neighbor_classifier/,Nearest Neighbors
+Calibrate Predicted Probabilities In SVC,https://chrisalbon.com/machine_learning/support_vector_machines/calibrate_predicted_probabilities_in_svc/,Support Vector Machines
+Find Nearest Neighbors,https://chrisalbon.com/machine_learning/support_vector_machines/find_nearest_neighbors/,Support Vector Machines
+Find Support Vectors,https://chrisalbon.com/machine_learning/support_vector_machines/find_support_vectors/,Support Vector Machines
+Imbalanced Classes In SVM,https://chrisalbon.com/machine_learning/support_vector_machines/imbalanced_classes_in_svm/,Support Vector Machines
+Plot The Support Vector Classifiers Hyperplane,https://chrisalbon.com/machine_learning/support_vector_machines/plot_support_vector_classifier_hyperplane/,Support Vector Machines
+SVC Parameters When Using RBF Kernel,https://chrisalbon.com/machine_learning/support_vector_machines/svc_parameters_using_rbf_kernel/,Support Vector Machines
+Support Vector Classifier,https://chrisalbon.com/machine_learning/support_vector_machines/support_vector_classifier/,Support Vector Machines
+Bernoulli Naive Bayes Classifier,https://chrisalbon.com/machine_learning/naive_bayes/bernoulli_naive_bayes_classifier/,Naive Bayes
+Calibrate Predicted Probabilities,https://chrisalbon.com/machine_learning/naive_bayes/calibrate_predicted_probabilities/,Naive Bayes
+Gaussian Naive Bayes Classifier,https://chrisalbon.com/machine_learning/naive_bayes/gaussian_naive_bayes_classifier/,Naive Bayes
+Multinomial Logistic Regression,https://chrisalbon.com/machine_learning/naive_bayes/multinomial_logistic_regression/,Naive Bayes
+Multinomial Naive Bayes Classifier,https://chrisalbon.com/machine_learning/naive_bayes/multinomial_naive_bayes_classifier/,Naive Bayes
+Naive Bayes Classifier From Scratch,https://chrisalbon.com/machine_learning/naive_bayes/naive_bayes_classifier_from_scratch/,Naive Bayes
+Agglomerative Clustering,https://chrisalbon.com/machine_learning/clustering/agglomerative_clustering/,Clustering
+DBSCAN Clustering,https://chrisalbon.com/machine_learning/clustering/dbscan_clustering/,Clustering
+Evaluating Clustering,https://chrisalbon.com/machine_learning/clustering/evaluating_clustering/,Clustering
+Meanshift Clustering,https://chrisalbon.com/machine_learning/clustering/meanshift_clustering/,Clustering
+Mini-Batch k-Means Clustering,https://chrisalbon.com/machine_learning/clustering/minibatch_k-means_clustering/,Clustering
+k-Means Clustering,https://chrisalbon.com/machine_learning/clustering/k-means_clustering/,Clustering
+Adding Dropout,https://chrisalbon.com/deep_learning/keras/adding_dropout/,Keras
+Convolutional Neural Network,https://chrisalbon.com/deep_learning/keras/convolutional_neural_network/,Keras
+Feedforward Neural Network For Binary Classification,https://chrisalbon.com/deep_learning/keras/feedforward_neural_network_for_binary_classification/,Keras
+Feedforward Neural Network For Multiclass Classification,https://chrisalbon.com/deep_learning/keras/feedforward_neural_network_for_multiclass_classification/,Keras
+Feedforward Neural Networks For Regression,https://chrisalbon.com/deep_learning/keras/feedforward_neural_network_for_regression/,Keras
+LSTM Recurrent Neural Network,https://chrisalbon.com/deep_learning/keras/lstm_recurrent_neural_network/,Keras
+Neural Network Early Stopping,https://chrisalbon.com/deep_learning/keras/neural_network_early_stopping/,Keras
+Neural Network Weight Regularization,https://chrisalbon.com/deep_learning/keras/neural_network_weight_regularization/,Keras
+Preprocessing Data For Neural Networks,https://chrisalbon.com/deep_learning/keras/preprocessing_data_for_neural_networks/,Keras
+Save Model Training Progress,https://chrisalbon.com/deep_learning/keras/save_model_training_progress/,Keras
+Tuning Neural Network Hyperparameters,https://chrisalbon.com/deep_learning/keras/tuning_neural_network_hyperparameters/,Keras
+Visualize Loss History,https://chrisalbon.com/deep_learning/keras/visualize_loss_history/,Keras
+Visualize Neural Network Architecutre,https://chrisalbon.com/deep_learning/keras/visualize_neural_network_architecture/,Keras
+Visualize Performance History,https://chrisalbon.com/deep_learning/keras/visualize_performance_history/,Keras
+k-Fold Cross-Validating Neural Networks,https://chrisalbon.com/deep_learning/keras/k-fold_cross-validating_neural_networks/,Keras
+Add Padding Around String,https://chrisalbon.com/python/basics/add_padding_around_string/,Basics
+All Combinations For A List Of Objects,https://chrisalbon.com/python/basics/all_combinations_of_a_list_of_objects/,Basics
+Apply Operations Over Items In A List,https://chrisalbon.com/python/basics/apply_operations_over_items_in_lists/,Basics
+Applying Functions To List Items,https://chrisalbon.com/python/basics/applying_functions_to_list_items/,Basics
+Arithmetic Basics,https://chrisalbon.com/python/basics/arithmetic_basics/,Basics
+Assignment Operators,https://chrisalbon.com/python/basics/assignment_operators/,Basics
+Basic Operations With NumPy Array,https://chrisalbon.com/python/basics/numpy_array_basic_operations/,Basics
+Breaking Up String Variables,https://chrisalbon.com/python/basics/breaking_up_string_variables/,Basics
+Brute Force D20 Roll Simulator,https://chrisalbon.com/python/basics/brute_force_d20_simulator/,Basics
+Cartesian Product,https://chrisalbon.com/python/basics/cartesian_product/,Basics
+Chain Together Lists,https://chrisalbon.com/python/basics/chain_together_lists/,Basics
+Cleaning Text,https://chrisalbon.com/python/basics/cleaning_text/,Basics
+Compare Two Dictionaries,https://chrisalbon.com/python/basics/compare_two_dictionaries/,Basics
+Concurrent Processing,https://chrisalbon.com/python/basics/concurrent_processing/,Basics
+Continue And Break Loops,https://chrisalbon.com/python/basics/continue_and_break_loops/,Basics
+Convert HTML Characters To Strings,https://chrisalbon.com/python/basics/convert_html_symbols_to_strings/,Basics
+Converting Strings To Datetime,https://chrisalbon.com/python/basics/strings_to_datetime/,Basics
+Create A New File Then Write To It,https://chrisalbon.com/python/basics/create_a_new_file_and_the_write_to_it/,Basics
+Create A Temporary File,https://chrisalbon.com/python/basics/create_a_temporary_file/,Basics
+Data Structure Basics,https://chrisalbon.com/python/basics/data_structure_basics/,Basics
+Date And Time Basics,https://chrisalbon.com/python/basics/date_and_time_basics/,Basics
+Dictionary Basics,https://chrisalbon.com/python/basics/dictionary_basics/,Basics
+Display Scientific Notation As Floats,https://chrisalbon.com/python/basics/display_scientific_notation_as_floats/,Basics
+Exiting A Loop,https://chrisalbon.com/python/basics/exiting_a_loop/,Basics
+Find The Max Value In A Dictionary,https://chrisalbon.com/python/basics/find_the_max_value_in_a_dictionary/,Basics
+Flatten Lists Of Lists,https://chrisalbon.com/python/basics/flatten_list_of_lists/,Basics
+For Loop,https://chrisalbon.com/python/basics/for_loops/,Basics
+Formatting Numbers,https://chrisalbon.com/python/basics/formatting_numbers/,Basics
+Function Annotation Examples,https://chrisalbon.com/python/basics/function_annotation_examples/,Basics
+Function Basics,https://chrisalbon.com/python/basics/function_basics/,Basics
+Functions Vs. Generators,https://chrisalbon.com/python/basics/functions_vs_generators/,Basics
+Generating Random Numbers With NumPy,https://chrisalbon.com/python/basics/generating_random_numbers_with_numpy/,Basics
+Generator Expressions,https://chrisalbon.com/python/basics/generator_expressions/,Basics
+Hard Wrapping Text,https://chrisalbon.com/python/basics/hard_wrapping_text/,Basics
+How To Use Default Dicts,https://chrisalbon.com/python/basics/how_to_use_default_dicts/,Basics
+If Else On Any Or All Elements,https://chrisalbon.com/python/basics/ifelse_on_any_or_all_elements/,Basics
+Indexing And Slicing NumPy Arrays,https://chrisalbon.com/python/basics/indexing_and_slicing_numpy_arrays/,Basics
+Indexing And Slicing NumPy Arrays,https://chrisalbon.com/python/basics/numpy_indexing_and_slicing/,Basics
+Iterate An Ifelse Over A List,https://chrisalbon.com/python/basics/iterate_ifelse_over_list/,Basics
+Iterate Over Multiple Lists Simultaneously,https://chrisalbon.com/python/basics/iterate_over_multiple_lists_simultaneously/,Basics
+Iterating Over Dictionary Keys,https://chrisalbon.com/python/basics/iterating_over_dictionary_keys/,Basics
+Lambda Functions,https://chrisalbon.com/python/basics/lambda_functions/,Basics
+Logical Operations,https://chrisalbon.com/python/basics/logical_operations/,Basics
+Looping Over Two Lists,https://chrisalbon.com/python/basics/looping_over_two_lists/,Basics
+Mathematical Operations,https://chrisalbon.com/python/basics/math_operations/,Basics
+Mocking Functions,https://chrisalbon.com/python/basics/mocking_functions/,Basics
+Nested For Loops Using List Comprehension,https://chrisalbon.com/python/basics/nested_for_loops_using_list_comprehension/,Basics
+Nesting Lists,https://chrisalbon.com/python/basics/nesting_lists/,Basics
+Numpy Array Basics,https://chrisalbon.com/python/basics/numpy_array_basics/,Basics
+Parallel Processing,https://chrisalbon.com/python/basics/parallel_processing/,Basics
+Partial Function Applications,https://chrisalbon.com/python/basics/partial_function_applications/,Basics
+Priority Queues,https://chrisalbon.com/python/basics/priority_queues/,Basics
+Queues And Stacks,https://chrisalbon.com/python/basics/queues_and_stacks/,Basics
+Recursive Functions,https://chrisalbon.com/python/basics/recursive_functions/,Basics
+Scheduling Jobs In The Future,https://chrisalbon.com/python/basics/schedule_run_in_the_future/,Basics
+Select Random Element From A List,https://chrisalbon.com/python/basics/select_random_element_from_list/,Basics
+Selecting Items In A List With Filters,https://chrisalbon.com/python/basics/filter_items_in_list_with_filter/,Basics
+Set The Color Of A Matplotlib Plot,https://chrisalbon.com/python/basics/set_the_color_of_a_matplotlib/,Basics
+Sort A List Of Names By Last Name,https://chrisalbon.com/python/basics/sort_a_list_by_last_name/,Basics
+Sort A List Of Strings By Length,https://chrisalbon.com/python/basics/sort_a_list_of_strings_by_length/,Basics
+Store API Credentials For Open Source Projects,https://chrisalbon.com/python/basics/store_api_credentials_for_open_source_projects/,Basics
+String Formatting,https://chrisalbon.com/python/basics/string_formatting/,Basics
+String Indexing,https://chrisalbon.com/python/basics/string_indexing/,Basics
+String Operations,https://chrisalbon.com/python/basics/string_operations/,Basics
+Swapping Variable Values,https://chrisalbon.com/python/basics/swapping_variable_values/,Basics
+"Try, Except, and Finally",https://chrisalbon.com/python/basics/try_except_finally/,Basics
+Unpacking A Tuple,https://chrisalbon.com/python/basics/unpacking_a_tuple/,Basics
+Unpacking Function Arguments,https://chrisalbon.com/python/basics/unpacking_function_arguments/,Basics
+Using Named Tuples To Store Data,https://chrisalbon.com/python/basics/using_named_tuples_to_store_data/,Basics
+"any(), all(), max(), min(), sum()",https://chrisalbon.com/python/basics/any_all_max_min_sum/,Basics
+if and if else,https://chrisalbon.com/python/basics/if_and_if_else_statements/,Basics
+repr vs. str,https://chrisalbon.com/python/basics/repr_vs_str/,Basics
+while Statement,https://chrisalbon.com/python/basics/while_statements/,Basics
+Apply Functions By Group In Pandas,https://chrisalbon.com/python/data_wrangling/pandas_apply_function_by_group/,Data Wrangling
+Apply Operations To Groups In Pandas,https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_groups/,Data Wrangling
+Applying Operations Over pandas Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_apply_operations_to_dataframes/,Data Wrangling
+Assign A New Column To A Pandas DataFrame,https://chrisalbon.com/python/data_wrangling/pandas_assign_new_column_dataframe/,Data Wrangling
+Break A List Into N-Sized Chunks,https://chrisalbon.com/python/data_wrangling/break_list_into_chunks_of_equal_size/,Data Wrangling
+Breaking Up A String Into Columns Using Regex In pandas,https://chrisalbon.com/python/data_wrangling/pandas_regex_to_create_columns/,Data Wrangling
+Columns Shared By Two Data Frames,https://chrisalbon.com/python/data_wrangling/columns_shared_by_two_data_frames/,Data Wrangling
+Construct A Dictionary From Multiple Lists,https://chrisalbon.com/python/data_wrangling/construct_a_dictionary_from_multiple_lists/,Data Wrangling
+Convert A CSV Into Python Code To Recreate It,https://chrisalbon.com/python/data_wrangling/csv_to_python_code/,Data Wrangling
+Convert A Categorical Variable Into Dummy Variables,https://chrisalbon.com/python/data_wrangling/pandas_convert_categorical_to_dummies/,Data Wrangling
+Convert A Categorical Variable Into Dummy Variables,https://chrisalbon.com/python/data_wrangling/pandas_convert_numeric_categorical_to_numeric_with_patsy/,Data Wrangling
+Convert A String Categorical Variable To A Numeric Variable,https://chrisalbon.com/python/data_wrangling/convert_categorical_to_numeric/,Data Wrangling
+Convert A Variable To A Time Variable In pandas,https://chrisalbon.com/python/data_wrangling/pandas_convert_to_datetime/,Data Wrangling
+Count Values In Pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_count_values/,Data Wrangling
+Create A Pipeline In Pandas,https://chrisalbon.com/python/data_wrangling/pandas_create_pipeline/,Data Wrangling
+Create A pandas Column With A For Loop,https://chrisalbon.com/python/data_wrangling/pandas_create_column_with_loop/,Data Wrangling
+Create Counts Of Items,https://chrisalbon.com/python/data_wrangling/creating_counts_of_items/,Data Wrangling
+Create a Column Based on a Conditional in pandas,https://chrisalbon.com/python/data_wrangling/pandas_create_column_using_conditional/,Data Wrangling
+Creating Lists From Dictionary Keys And Values,https://chrisalbon.com/python/data_wrangling/create_list_from_dictionary_keys_and_values/,Data Wrangling
+Crosstabs In pandas,https://chrisalbon.com/python/data_wrangling/pandas_crosstabs/,Data Wrangling
+Delete Duplicates In pandas,https://chrisalbon.com/python/data_wrangling/pandas_delete_duplicates/,Data Wrangling
+Descriptive Statistics For pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_descriptive_stats/,Data Wrangling
+Dropping Rows And Columns In pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_dropping_column_and_rows/,Data Wrangling
+Enumerate A List,https://chrisalbon.com/python/data_wrangling/enumerate_a_list/,Data Wrangling
+Expand Cells Containing Lists Into Their Own Variables In Pandas,https://chrisalbon.com/python/data_wrangling/pandas_expand_cells_containing_lists/,Data Wrangling
+Filter pandas Dataframes,https://chrisalbon.com/python/data_wrangling/filter_dataframes/,Data Wrangling
+Find Largest Value In A Dataframe Column,https://chrisalbon.com/python/data_wrangling/pandas_find_largest_value_in_column/,Data Wrangling
+Find Unique Values In Pandas Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_find_unique_values/,Data Wrangling
+Geocoding And Reverse Geocoding,https://chrisalbon.com/python/data_wrangling/geocoding_and_reverse_geocoding/,Data Wrangling
+Geolocate A City And Country,https://chrisalbon.com/python/data_wrangling/geolocate_a_city_and_country/,Data Wrangling
+Geolocate A City Or Country,https://chrisalbon.com/python/data_wrangling/geolocate_a_city_or_country/,Data Wrangling
+Group A Time Series With pandas,https://chrisalbon.com/python/data_wrangling/pandas_group_by_time/,Data Wrangling
+Group Data By Time,https://chrisalbon.com/python/data_wrangling/pandas_group_data_by_time/,Data Wrangling
+Group Pandas Data By Hour Of The Day,https://chrisalbon.com/python/data_wrangling/group_pandas_data_by_hour_of_the_day/,Data Wrangling
+Grouping Rows In pandas,https://chrisalbon.com/python/data_wrangling/pandas_group_rows_by/,Data Wrangling
+Hierarchical Data In pandas,https://chrisalbon.com/python/data_wrangling/pandas_hierarchical_data/,Data Wrangling
+Join And Merge Pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_join_merge_dataframe/,Data Wrangling
+List Unique Values In A pandas Column,https://chrisalbon.com/python/data_wrangling/pandas_list_unique_values_in_column/,Data Wrangling
+Load A JSON File Into Pandas,https://chrisalbon.com/python/data_wrangling/load_json_file_into_pandas/,Data Wrangling
+Load An Excel File Into Pandas,https://chrisalbon.com/python/data_wrangling/load_excel_file_into_pandas/,Data Wrangling
+Load Excel Spreadsheet As pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_load_xls/,Data Wrangling
+Loading A CSV Into pandas,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_importing_csv/,Data Wrangling
+Long To Wide Format,https://chrisalbon.com/python/data_wrangling/pandas_long_to_wide/,Data Wrangling
+Lower Case Column Names In Pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_lowercase_column_names/,Data Wrangling
+Make New Columns Using Functions,https://chrisalbon.com/python/data_wrangling/pandas_make_new_columns_using_functions/,Data Wrangling
+Map External Values To Dataframe Values in pandas,https://chrisalbon.com/python/data_wrangling/pandas_map_values_to_values/,Data Wrangling
+Missing Data In pandas Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_missing_data/,Data Wrangling
+Moving Averages In pandas,https://chrisalbon.com/python/data_wrangling/pandas_moving_average/,Data Wrangling
+Normalize A Column In pandas,https://chrisalbon.com/python/data_wrangling/pandas_normalize_column/,Data Wrangling
+Pivot Tables In pandas,https://chrisalbon.com/python/data_wrangling/pandas_pivot_tables/,Data Wrangling
+Quickly Change A Column Of Strings In Pandas,https://chrisalbon.com/python/data_wrangling/pandas_change_column_of_strings/,Data Wrangling
+Random Sampling Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_sampling_dataframe/,Data Wrangling
+Ranking Rows Of Pandas Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_ranking_rows/,Data Wrangling
+Regular Expression Basics,https://chrisalbon.com/python/data_wrangling/regular_expressions_basics/,Data Wrangling
+Regular Expression By Example,https://chrisalbon.com/python/data_wrangling/regex_by_example/,Data Wrangling
+Reindexing pandas Series And Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_reindexing/,Data Wrangling
+Rename Column Headers In pandas,https://chrisalbon.com/python/data_wrangling/pandas_rename_column_headers/,Data Wrangling
+Rename Multiple pandas Dataframe Column Names,https://chrisalbon.com/python/data_wrangling/pandas_rename_multiple_columns/,Data Wrangling
+Replacing Values In pandas,https://chrisalbon.com/python/data_wrangling/pandas_replace_values/,Data Wrangling
+Saving A pandas Dataframe As A CSV,https://chrisalbon.com/python/data_wrangling/pandas_saving_dataframe_as_csv/,Data Wrangling
+Search A pandas Column For A Value,https://chrisalbon.com/python/data_wrangling/pandas_search_column_for_value/,Data Wrangling
+Select Rows When Columns Contain Certain Values,https://chrisalbon.com/python/data_wrangling/pandas_select_rows_when_column_has_certain_values/,Data Wrangling
+Select Rows With A Certain Value,https://chrisalbon.com/python/data_wrangling/pandas_select_rows_containing_values/,Data Wrangling
+Select Rows With Multiple Filters,https://chrisalbon.com/python/data_wrangling/pandas_select_rows_multiple_filters/,Data Wrangling
+Selecting pandas DataFrame Rows Based On Conditions,https://chrisalbon.com/python/data_wrangling/pandas_selecting_rows_on_conditions/,Data Wrangling
+Simple Example Dataframes In pandas,https://chrisalbon.com/python/data_wrangling/pandas_dataframe_examples/,Data Wrangling
+Sorting Rows In pandas Dataframes,https://chrisalbon.com/python/data_wrangling/pandas_sorting_rows_dataframe/,Data Wrangling
+Split Lat/Long Coordinate Variables Into Seperate Variables,https://chrisalbon.com/python/data_wrangling/pandas_split_lat_and_long_into_variables/,Data Wrangling
+Streaming Data Pipeline,https://chrisalbon.com/python/data_wrangling/streaming_data_pipeline/,Data Wrangling
+String Munging In Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_string_munging/,Data Wrangling
+Using List Comprehensions With pandas,https://chrisalbon.com/python/data_wrangling/pandas_list_comprehension/,Data Wrangling
+Using Seaborn To Visualize A pandas Dataframe,https://chrisalbon.com/python/data_wrangling/pandas_with_seaborn/,Data Wrangling
+pandas Data Structures,https://chrisalbon.com/python/data_wrangling/pandas_data_structures/,Data Wrangling
+pandas Time Series Basics,https://chrisalbon.com/python/data_wrangling/pandas_time_series_basics/,Data Wrangling
+Back To Back Bar Plot In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_back_to_back_bar_plot/,Data Visualization
+Bar Plot In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_bar_plot/,Data Visualization
+Color Palettes in Seaborn,https://chrisalbon.com/python/data_visualization/seaborn_color_palettes/,Data Visualization
+Creating A Time Series Plot With Seaborn And pandas,https://chrisalbon.com/python/data_visualization/seaborn_pandas_timeseries_plot/,Data Visualization
+Creating Scatterplots With Seaborn,https://chrisalbon.com/python/data_visualization/seaborn_scatterplot/,Data Visualization
+Group Bar Plot In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_grouped_bar_plot/,Data Visualization
+Histograms In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_histogram/,Data Visualization
+Making A Matplotlib Scatterplot From A Pandas Dataframe,https://chrisalbon.com/python/data_visualization/matplotlib_scatterplot_from_pandas/,Data Visualization
+"Matplotlib, A Simple Example",https://chrisalbon.com/python/data_visualization/matplotlib_simple_example/,Data Visualization
+Pie Chart In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_pie_chart/,Data Visualization
+Scatterplot In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_simple_scatterplot/,Data Visualization
+Stacked Percentage Bar Plot In MatPlotLib,https://chrisalbon.com/python/data_visualization/matplotlib_percentage_stacked_bar_plot/,Data Visualization
+Beautiful Soup Basic HTML Scraping,https://chrisalbon.com/python/web_scraping/beautiful_soup_html_basics/,Web Scraping
+Drilling Down With Beautiful Soup,https://chrisalbon.com/python/web_scraping/beautiful_soup_drill_down/,Web Scraping
+Monitor A Website For Changes With Python,https://chrisalbon.com/python/web_scraping/monitor_a_website/,Web Scraping
+Simple Unit Test,https://chrisalbon.com/python/testing/simple_unit_test/,Testing
+Test Code Speed,https://chrisalbon.com/python/testing/test_code_speed/,Testing
+Test For A Specific Exception,https://chrisalbon.com/python/testing/test_for_a_specific_exception/,Testing
+Test If Output Is Close To A Value,https://chrisalbon.com/python/testing/test_if_an_output_is_close_to_a_value/,Testing
+Testable Documentation,https://chrisalbon.com/python/testing/testable_documentation/,Testing
+Generate Tweets Using Markov Chains,https://chrisalbon.com/python/other/generate_tweets_using_markov_chain/,Other
+Mine Twitter's Stream For Hashtags Or Words,https://chrisalbon.com/python/other/mine_a_twitter_hashtags_and_words/,Other
+Simple Clustering With SciPy,https://chrisalbon.com/python/other/scipy_simple_clustering/,Other
+What Is The Probability An Economy Class Seat Is An Aisle Seat?,https://chrisalbon.com/python/other/aisle_seat_probabilities/,Other
+Bessels Correction,https://chrisalbon.com/statistics/frequentist/bessel_correction/,Frequentist
+Demonstrate The Central Limit Theorem,https://chrisalbon.com/statistics/frequentist/demonstrate_the_central_limit_theorem/,Frequentist
+Pearsons Correlation Coefficient,https://chrisalbon.com/statistics/frequentist/pearsons_correlation_coefficient/,Frequentist
+Probability Mass Functions,https://chrisalbon.com/statistics/frequentist/probability_mass_functions/,Frequentist
+Spearmans Rank Correlation,https://chrisalbon.com/statistics/frequentist/spearmans_rank_correlation/,Frequentist
+T-Tests,https://chrisalbon.com/statistics/frequentist/t-tests/,Frequentist
+Variance And Standard Deviation,https://chrisalbon.com/statistics/frequentist/variance_and_standard_deviation/,Frequentist
+Break A Sequence Into Groups,https://chrisalbon.com/scala/basics/break_a_sequence_into_groups/,None
+Change Data Type,https://chrisalbon.com/scala/basics/change_data_type/,None
+Chunk Sequence In Equal Sized Groups,https://chrisalbon.com/scala/basics/chuck_sequence_into_equal_sized_groups/,None
+Compare Two Floats,https://chrisalbon.com/scala/basics/compare_two_floats/,None
+Create A Range,https://chrisalbon.com/scala/basics/create_a_range/,None
+Extract Substrings Using Regex,https://chrisalbon.com/scala/basics/extract_substring_using_regex/,None
+Filter A Sequence,https://chrisalbon.com/scala/basics/filter_a_sequence/,None
+Find Largest Key Or Value In A Map,https://chrisalbon.com/scala/basics/find_largest_key_or_value_in_a_map/,None
+Flatten Sequence Of Sequences,https://chrisalbon.com/scala/basics/flatten_sequence_of_sequences/,None
+For Loop A Map,https://chrisalbon.com/scala/basics/for_loop_a_map/,None
+For Looping,https://chrisalbon.com/scala/basics/for_looping/,None
+Format Numbers As Currency,https://chrisalbon.com/scala/basics/format_numbers_as_currency/,None
+If Else,https://chrisalbon.com/scala/basics/if_else/,None
+Increment And Decrement Numbers,https://chrisalbon.com/scala/basics/increment_and_decrement_numbers/,None
+Insert Variables Into Strings,https://chrisalbon.com/scala/basics/insert_variables_into_strings/,None
+Iterate Over A Map,https://chrisalbon.com/scala/basics/iterate_over_a_map/,None
+Loop A Collection,https://chrisalbon.com/scala/basics/loop_a_collection/,None
+Make Numbers Pretty,https://chrisalbon.com/scala/basics/make_numbers_pretty/,None
+Mapping A Function To A Collection,https://chrisalbon.com/scala/basics/mapping_a_function_to_a_collection/,None
+Matching Conditions,https://chrisalbon.com/scala/basics/matching_conditions/,None
+Mutable Maps,https://chrisalbon.com/scala/basics/mutable_maps/,None
+N Dimension Arrays,https://chrisalbon.com/scala/basics/n_dimension_arrays/,None
+Partial Functions,https://chrisalbon.com/scala/basics/partial_functions/,None
+Random Integer Between Two Values,https://chrisalbon.com/scala/basics/random_integer_between_two_values/,None
+Replacing Parts Of Strings,https://chrisalbon.com/scala/basics/replacing_parts_of_strings/,None
+Search A Map,https://chrisalbon.com/scala/basics/search_a_map/,None
+Search Strings,https://chrisalbon.com/scala/basics/search_strings/,None
+Search Strings Using Regex,https://chrisalbon.com/scala/basics/search_strings_with_regex/,None
+Set Operations On Sequences,https://chrisalbon.com/scala/basics/set_operations_on_sequences/,None
+Sorting Sequences,https://chrisalbon.com/scala/basics/sorting_sequences/,None
+Split Strings,https://chrisalbon.com/scala/basics/split_strings/,None
+"Try, Catch, Finally",https://chrisalbon.com/scala/basics/try_catch_finally/,None
+Variables And Values,https://chrisalbon.com/scala/basics/variables_and_values/,None
+Zip Together Two Lists,https://chrisalbon.com/scala/basics/zip_together_two_lists/,None
+Match A Symbol,https://chrisalbon.com/regex/patterns/match_a_symbol/,None
+Match A Unicode Character,https://chrisalbon.com/regex/patterns/match_a_unicode_character/,None
+Match A Word,https://chrisalbon.com/regex/patterns/match_a_word/,None
+Match Any Character,https://chrisalbon.com/regex/patterns/match_any_character/,None
+Match Any Of A List Of Characters,https://chrisalbon.com/regex/patterns/match_any_of_a_list_of_symbols/,None
+Match Any Of A Series Of Options,https://chrisalbon.com/regex/patterns/match_any_of_series_of_characters/,None
+Match Any Of A Series Of Words,https://chrisalbon.com/regex/patterns/match_any_of_series_of_words/,None
+Match Dates,https://chrisalbon.com/regex/patterns/match_dates/,None
+Match Email Addresses,https://chrisalbon.com/regex/patterns/match_email_addresses/,None
+Match Exact Text,https://chrisalbon.com/regex/patterns/match_exact_text/,None
+Match Integers Of Any Length,https://chrisalbon.com/regex/patterns/match_integers_of_any_length/,None
+Match Text Between HTML Tags,https://chrisalbon.com/regex/patterns/match_text_between_html_tags/,None
+Match Times,https://chrisalbon.com/regex/patterns/match_times/,None
+Match URLs,https://chrisalbon.com/regex/patterns/match_urls/,None
+Match US Phone Numbers,https://chrisalbon.com/regex/patterns/match_us_phone_numbers/,None
+Match US and UK Spellings,https://chrisalbon.com/regex/patterns/match_us_uk_spellings/,None
+Match Words With A Certain Ending,https://chrisalbon.com/regex/patterns/match_words_with_certain_ending/,None
+Match ZIP Codes,https://chrisalbon.com/regex/patterns/match_zip_codes/,None
+argmin and argmax,https://chrisalbon.com/mathematics/basics/argmin_and_argmax/,None
+Big-O Notation,https://chrisalbon.com/software_engineering/algorithms/big-o_notation/,Algorithms
+Binary Search,https://chrisalbon.com/software_engineering/algorithms/binary_search/,Algorithms
+Bubble Sort,https://chrisalbon.com/software_engineering/algorithms/bubble_sort/,Algorithms
+Insertion Sort,https://chrisalbon.com/software_engineering/algorithms/insertion_sort/,Algorithms
+Selection Sort,https://chrisalbon.com/software_engineering/algorithms/selection_sort/,Algorithms
+GitHub Cheatsheet,https://chrisalbon.com/software_engineering/cloud_computing/github_cheatsheet/,Cloud Computing
+Run Project Jupyter Notebooks On Amazon EC2,https://chrisalbon.com/software_engineering/cloud_computing/run_project_jupyter_on_amazon_ec2/,Cloud Computing

@@ -1,6 +1,6 @@
-<button mat-fab (click)="onClickUserInfo()">
+<!-- <button mat-fab (click)="onClickUserInfo()">
   <mat-icon>person</mat-icon>
-</button>
+</button> -->
 <div class="chat-container">
   <mat-card class="main-card">
     <mat-list class="chat-list">
@@ -20,7 +20,7 @@
         </p>
       </mat-list-item>
     </mat-list>
-    <div class="chat-footer-container">
+    <div class="chat-footer-container" *ngIf="showChat">
       <mat-icon>message</mat-icon>
       <mat-form-field class="chat-input">
         <input matInput

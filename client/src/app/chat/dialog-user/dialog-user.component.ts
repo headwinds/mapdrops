@@ -1,6 +1,8 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material';
 import { FormControl, Validators } from '@angular/forms';
+//import { Broadcaster } from '../../shared/Broadcaster';
+import { MessageService } from '../shared/services/message-service';
 import axios from 'axios';
 
 import {
@@ -22,12 +24,18 @@ export class DialogUserComponent implements OnInit {
 
   constructor(
     private socialAuthService: AuthService,
+    private messageService: MessageService,
     public dialogRef: MatDialogRef<DialogUserComponent>,
     @Inject(MAT_DIALOG_DATA) public params: any
   ) {
     this.previousUsername = params.username ? params.username : undefined;
     this.showGoogleBtn = true;
     this.name = '';
+
+    //this.broadcaster = broadcaster;
+    // skip signin
+    this.onSave();
+    window.location.href = '/forest';
   }
 
   ngOnInit() {}
@@ -57,6 +65,9 @@ export class DialogUserComponent implements OnInit {
       this.params.username = userData.name;
 
       this.showGoogleBtn = false;
+
+      //this.broadcaster.broadcast$('userSignin', userData); //Broadcast
+      this.messageService.sendMessage('userSignin', userData);
 
       setTimeout(() => {
         this.onSave();

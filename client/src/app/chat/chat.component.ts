@@ -43,6 +43,7 @@ export class ChatComponent implements OnInit, AfterViewInit {
       dialogType: DialogUserType.NEW
     }
   };
+  showChat: boolean;
 
   // getting a reference to the overall list, which is the parent container of the list items
   @ViewChild(MatList, { read: ElementRef })
@@ -52,7 +53,9 @@ export class ChatComponent implements OnInit, AfterViewInit {
   @ViewChildren(MatListItem, { read: ElementRef })
   matListItems: QueryList<MatListItem>;
 
-  constructor(private socketService: SocketService, public dialog: MatDialog) {}
+  constructor(private socketService: SocketService, public dialog: MatDialog) {
+    this.showChat = false;
+  }
 
   ngOnInit(): void {
     console.log('chat init');

@@ -31,6 +31,7 @@ export class MapBoxComponent implements OnInit {
 
   ngOnInit() {
     //this.markers = this.mapService.getMarkers();
+    return;
     console.log('map init');
     setTimeout(() => {
       this.buildMap();

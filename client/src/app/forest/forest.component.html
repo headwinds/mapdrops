@@ -1,0 +1,13 @@
+<div forest [ngStyle]="forestStyle">
+
+  <div class="warning" *ngIf="warning.show">
+    <div (click)='handleWarningClose($event)'>x</div>
+    <div><p>{{warning.message}}</p></div>
+  </div>
+
+  <div id="heap">
+
+  </div>
+
+<svg width='0vw' height='0vh' class='mySvg' (click)='clickedSvg($event)'></svg>
+</div>

@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 //import { AuthService } from '../chat/shared/services/auth.service';
-import { Component } from '@angular/core';
 import {
   AngularFirestore,
   AngularFirestoreDocument,
@@ -8,27 +7,39 @@ import {
 } from 'angularfire2/firestore';
 import { Observable } from 'rxjs/Observable';
 
+export interface Article {
+  name: string;
+  complexity: number;
+  link: string;
+  rating: number;
+  visits: number;
+  tags: string;
+  timesUsed: string;
+}
+
 @Component({
   selector: 'tcc-gpx',
   templateUrl: './gpx.component.html',
   styleUrls: ['./gpx.component.css']
 })
 export class GpxComponent implements OnInit {
-  instructions: string = 'day 4: added social logins, mapbox and firestore';
-  private itemDoc: AngularFirestoreDocument<Item>;
-  private itemsCollection: AngularFirestoreCollection<Item>;
-  items: Observable<any[]>;
+  instructions: string = 'day 5: added forest of links to firestore';
+  private articleDoc: AngularFirestoreDocument<Article>;
+  private articlesCollection: AngularFirestoreCollection<Article>;
+  articles: Observable<Article[]>;
+  article: Observable<Article>;
+
   constructor(private afs: AngularFirestore) {
-    this.itemDoc = afs.doc<Item>('items/1');
-    this.item = this.itemDoc.valueChanges();
-    this.itemsCollection = afs.collection<Item>('items');
-    this.items = this.itemsCollection.valueChanges();
+    this.articleDoc = afs.doc<Article>('articles/1');
+    this.article = this.articleDoc.valueChanges();
+    this.articlesCollection = afs.collection<Article>('articles');
+    this.articles = this.articlesCollection.valueChanges();
   }
-  update(item: Item) {
-    this.itemDoc.update(item);
+  update(article: Article) {
+    this.articleDoc.update(article);
   }
-  addItem(item: Item) {
-    this.itemsCollection.add(item);
+  addItem(article: Article) {
+    this.articlesCollection.add(article);
   }
 
   ngOnInit() {}

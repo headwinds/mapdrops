@@ -1,3 +1,29 @@
 .mat-dialog-content {
-    overflow: hidden;
+  overflow: hidden;
+}
+
+.stack {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.mat-one {
+  display: block;
+  background-color: #abff1f;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.mat-two {
+  display: block;
+  background-color: #20a384;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
 }
