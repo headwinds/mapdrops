@@ -14,6 +14,8 @@
 # environments
 /server/src/environments/*.js
 /client/src/environments/*.js
+/client/src/environments
+/server/src/environments
 
 # IDEs and editors
 /.idea
