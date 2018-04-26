@@ -10,6 +10,7 @@ import {
   FacebookLoginProvider,
   GoogleLoginProvider
 } from 'angular5-social-login';
+import { TwitterLoginProvider } from '../twitter-login-provider';
 
 @Component({
   selector: 'tcc-dialog-user',
@@ -31,6 +32,9 @@ export class DialogUserComponent implements OnInit {
     this.previousUsername = params.username ? params.username : undefined;
     this.showGoogleBtn = true;
     this.name = '';
+
+    //https://firebase.google.com/docs/auth/web/twitter-login
+    // https://medium.com/@robince885/how-to-do-twitter-authentication-with-react-and-restful-api-e525f30c62bb
 
     //this.broadcaster = broadcaster;
     // skip signin
@@ -56,6 +60,8 @@ export class DialogUserComponent implements OnInit {
       socialPlatformProvider = FacebookLoginProvider.PROVIDER_ID;
     } else if (socialPlatform == 'google') {
       socialPlatformProvider = GoogleLoginProvider.PROVIDER_ID;
+    } else if (socialPlatform == 'twitter') {
+      socialPlatformProvider = TwitterLoginProvider.PROVIDER_ID;
     }
 
     this.socialAuthService.signIn(socialPlatformProvider).then(userData => {

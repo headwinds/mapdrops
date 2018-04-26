@@ -2,19 +2,21 @@
 
 <mat-dialog-content *ngIf="showGoogleBtn">
 
-
     <!-- <button (click)='siginWithGoogle()'>signin with google</button> -->
     <div class="stack">
-<!--<button mat-button (click)="socialSignIn('twitter')">Sign in Twitter</button> -->
-    <div class="row">
-      <div class="mat-one"></div>
-    <button mat-button *ngIf="showGoogleBtn" (click)="socialSignIn('google')">Sign in with Google</button>
-  </div>
-    <div class="row">
-      <div class="mat-two"></div>
-    <button mat-button (click)="socialSignIn('facebook')">Sign in with Facebook</button>
-  </div>
-  </div>
+      <div class="row">
+        <div class="mat-one"></div>
+      <button mat-button *ngIf="showGoogleBtn" (click)="socialSignIn('google')">Sign in with Google</button>
+      </div>
+      <div class="row">
+        <div class="mat-two"></div>
+        <button mat-button (click)="socialSignIn('facebook')">Sign in with Facebook</button>
+      </div>
+      <div class="row">
+        <div class="mat-two"></div>
+        <button mat-button (click)="socialSignIn('twitter')">Sign in Twitter</button>
+      </div>
+    </div>
 
 <!-- anonymous ???
   <mat-form-field>

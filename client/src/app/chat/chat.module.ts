@@ -13,6 +13,7 @@ import {
   GoogleLoginProvider,
   FacebookLoginProvider
 } from 'angular5-social-login';
+import { TwitterLoginProvider } from './twitter-login-provider';
 
 // Configs
 export function getAuthServiceConfigs() {
@@ -26,6 +27,10 @@ export function getAuthServiceConfigs() {
       provider: new GoogleLoginProvider(
         '347820260770-3h2jms65i96gur0s5nevtgl4h9gch1of.apps.googleusercontent.com'
       )
+    },
+    {
+      id: TwitterLoginProvider.PROVIDER_ID,
+      provider: new TwitterLoginProvider(environment.twitter.clientID)
     }
   ]);
   return config;

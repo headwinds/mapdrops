@@ -170,6 +170,7 @@ export function drawVerticalTree(flatData, handleNodeClick) {
   const svg = d3
       .select('#heap')
       .append('svg')
+      .attr('id', 'mine')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom),
     g = svg

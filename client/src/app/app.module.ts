@@ -13,7 +13,8 @@ import {
   GoogleLoginProvider,
   FacebookLoginProvider
 } from 'angular5-social-login';
-import { MapBoxComponent } from './map-box/map-box.component';
+import { TwitterLoginProvider } from './chat/twitter-login-provider';
+//import { MapBoxComponent } from './map-box/map-box.component';
 import { MapService } from './map.service';
 import { AngularFirestore } from 'angularfire2/firestore';
 import { environment } from '../environments/environment';
@@ -34,6 +35,10 @@ export function getAuthServiceConfigs() {
     {
       id: GoogleLoginProvider.PROVIDER_ID,
       provider: new GoogleLoginProvider(environment.google.clientID)
+    },
+    {
+      id: TwitterLoginProvider.PROVIDER_ID,
+      provider: new TwitterLoginProvider(environment.twitter.clientID)
     }
   ]);
   return config;
@@ -43,12 +48,13 @@ const routes: Routes = [
   { path: '', component: AppComponent },
   { path: 'auth/google', component: AppComponent },
   { path: 'hello', component: AppComponent },
-  { path: 'forest', component: ForestComponent },
-  { path: 'map', component: MapBoxComponent }
+  { path: 'forest', component: ForestComponent }
+  //{ path: 'map', component: MapBoxComponent }
 ];
 
 @NgModule({
-  declarations: [AppComponent, GpxComponent, MapBoxComponent, ForestComponent],
+  //declarations: [AppComponent, GpxComponent, MapBoxComponent, ForestComponent],
+  declarations: [AppComponent, GpxComponent, ForestComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
