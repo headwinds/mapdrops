@@ -1,7 +1,11 @@
 import * as d3 from 'd3';
 import * as _ from 'lodash';
 
-export const drawArticleCluster = (d: any, articles: any[]) => {
+export const drawArticleCluster = (
+  d: any,
+  articles: any[],
+  handleArticleClick: Function
+) => {
   // what articles are part of this cluster?
   //const dTitle = d.title;
   const clusterArticles = _.filter(articles, { category: d.data.name });
@@ -27,16 +31,20 @@ export const drawArticleCluster = (d: any, articles: any[]) => {
   const getNodes = () => {
     const dist = 100;
 
-    return d3.range(n).map(function() {
+    return d3.range(n).map(mapIndex => {
+      //console.log('what: ', mapIndex);
       let i = Math.floor(Math.random() * m),
         r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
         d = {
           cluster: i,
           radius: r,
           x: Math.cos(i / m * 2 * Math.PI) * dist + Math.random(),
-          y: Math.sin(i / m * 2 * Math.PI) * dist + Math.random()
+          y: Math.sin(i / m * 2 * Math.PI) * dist + Math.random(),
+          ...articles[mapIndex],
+          articleIndex: mapIndex
         };
       if (!clusters[i] || r > clusters[i].radius) clusters[i] = d;
+
       return d;
     });
   };
@@ -55,7 +63,7 @@ export const drawArticleCluster = (d: any, articles: any[]) => {
   // Move d to be adjacent to the cluster node.
   // from: https://bl.ocks.org/mbostock/7881887
   const cluster = () => {
-    var nodes,
+    let nodesCluster,
       strength = 0.1;
 
     function force(alpha) {
@@ -82,7 +90,7 @@ export const drawArticleCluster = (d: any, articles: any[]) => {
     }
 
     force.initialize = function(_) {
-      nodes = _;
+      nodesCluster = _;
     };
 
     force.strength = _ => {
@@ -93,15 +101,46 @@ export const drawArticleCluster = (d: any, articles: any[]) => {
     return force;
   };
 
-  function drawNodes(targetCenter) {
+  function drawNodes(nodes, targetCenter, handleArticleClick) {
     const node = svg
       .selectAll('circle')
       .data(nodes)
       .enter()
+      .append('g')
+      .on('click', handleArticleClick)
       .append('circle')
       .style('fill', function(d) {
         return color(d.cluster / 10);
       });
+    /*
+      .append('circle')
+      .style('fill', function(d) {
+        return color(d.cluster / 10);
+      });
+      */
+    /*
+    const cirlce = node.append('circle').style('fill', function(d) {
+      return color(d.cluster / 10);
+    });
+    */
+
+    /*
+    const node = svg
+      .selectAll('.article')
+      .data(nodes)
+      .enter()
+      .append('g')
+      .attr('class', function(d) {
+        return 'node' + (d.visits && d.visits > 0 ? '-touched' : 'not-touched');
+      })
+      .on('click', handleArticleClick);
+
+    // adds the circle to the node
+    const cirlce = node.append('circle').style('fill', function(d) {
+      return color(d.cluster / 10);
+    });
+    */
+    //styleElement(cirlce, circleStyle);
 
     const layoutTick = e => {
       node
@@ -131,53 +170,22 @@ export const drawArticleCluster = (d: any, articles: any[]) => {
       .nodes(nodes);
   }
 
-  const targets = [{ x: 120, y: 200 }, { x: 350, y: 300 }, { x: 600, y: 100 }];
-
-  const drawTargets = () => {
-    svg
-      .selectAll('rect')
-      .data(targets)
-      .enter()
-      .append('rect')
-      .attr('width', 5)
-      .attr('height', 5)
-      .attr('x', function(d) {
-        return d.x;
-      })
-      .attr('y', function(d) {
-        return d.y;
-      })
-      .style('fill', 'red');
-  };
-
-  const draw = d => {
-    //drawTargets();
-    //let count = 0;
-
+  const draw = (nodes, target, handleArticleClick) => {
     const target = d;
-    console.log('target: ', d);
-    //removeAll();
-    //nodes = getNodes();
-    drawNodes(d);
-    /*
-    const moveTarget = () => {
-      removeAll();
-      nodes = getNodes();
-      drawNodes(targets[count]);
-      count++;
-      if (count > 2) count = 0;
-      //
-    };
-    setInterval(moveTarget, 1500);
-    */
+    console.log('drawClusters draw: ', d);
+
+    drawNodes(nodes, target, handleArticleClick);
   };
 
-  draw(d);
+  draw(nodes, d, handleArticleClick);
 };
 export const removeArticleCluster = (d: any) => {
   const removeAll = () => {
     // need to select the cluster!
-    const node = svg.selectAll('circle').remove();
+    const node = d3
+      .select('svg')
+      .selectAll('.article')
+      .remove();
   };
 
   removeAll();

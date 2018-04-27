@@ -7,12 +7,12 @@ import { drawArticleCluster, removeArticleCluster } from './drawClusters';
 export default class Tree {
   data: any;
   root: any;
-  onNodeClick: Function;
+  handleNodeClick: Function;
   articles: any[];
 
-  constructor(onNodeClick: Function) {
+  constructor(handleNodeClick: Function) {
     this.load();
-    this.onNodeClick = onNodeClick;
+    this.handleNodeClick = handleNodeClick;
   }
 
   load() {
@@ -28,11 +28,11 @@ export default class Tree {
 
   drawLevels(links) {
     const flatData = getFlatLevelsData();
-    drawVerticalTree(flatData, this.onNodeClick);
+    drawVerticalTree(flatData, this.handleNodeClick);
   }
 
-  drawCluster(d: any, articles: any[]) {
-    drawArticleCluster(d, articles);
+  drawCluster(d: any, articles: any[], handleArticleClick: Function) {
+    drawArticleCluster(d, articles, handleArticleClick);
   }
 
   removeCluster(d) {
