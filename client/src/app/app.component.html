@@ -23,7 +23,7 @@
 
   <div>
     <div class="nav-content">
-      <mat-toolbar color="primary">
+
         <!--
         <button mat-icon-button (click)="sidenav.toggle()">
           <mat-icon>menu</mat-icon>
@@ -43,11 +43,9 @@
           <!--<a routerLink="/map" routerLinkActive="active"><mat-icon mat-list-icon>equalizer</mat-icon>charts</a>-->
           </div>
         </div>
-        <div class="userContainer">
-          <span>{{username}}</span>
-        </div>
+        <tcc-signin></tcc-signin>
       </div>
-      </mat-toolbar>
+
     </div>
     <div class="app-content">
       <router-outlet></router-outlet>

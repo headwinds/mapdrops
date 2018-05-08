@@ -1,14 +1,17 @@
 import { Component, OnInit, AfterContentInit } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 import * as d3 from 'd3';
 import Tree from './tree';
 import * as _ from 'lodash';
 //import { AuthService } from '../chat/shared/services/auth.service';
+import { AngularFireAuth } from 'angularfire2/auth';
 import {
   AngularFirestore,
   AngularFirestoreDocument,
   AngularFirestoreCollection
 } from 'angularfire2/firestore';
 import { Observable } from 'rxjs/Observable';
+import { DomSanitizer } from '@angular/platform-browser';
 
 export interface IArticle {
   userId: string;
@@ -74,8 +77,20 @@ export class ForestComponent implements OnInit {
     top: 0,
     left: 0
   };
+  userId: string;
+  // https://stackoverflow.com/questions/37927657/unsafe-value-used-in-a-resource-url-context-with-angular-2
+  lesson: any = {
+    url: this.sanitizer.bypassSecurityTrustResourceUrl(
+      'https://chrisalbon.com/python/basics/priority_queues/'
+    ),
+    show: true
+  };
 
-  constructor(private afs: AngularFirestore) {
+  constructor(
+    private afs: AngularFirestore,
+    private firebaseAuth: AngularFireAuth,
+    public sanitizer: DomSanitizer
+  ) {
     //this.articleDoc = afs.doc<Article>('articles/1');
     //this.article = this.articleDoc.valueChanges();
 
@@ -84,7 +99,7 @@ export class ForestComponent implements OnInit {
       'article-events'
     );
 
-    this.articles = this.myArticlesCollection.valueChanges();
+    this.myArticles = this.myArticlesCollection.valueChanges();
     this.radius = 20;
     this.forestStyle = { 'pointer-events': 'all' };
 
@@ -92,6 +107,10 @@ export class ForestComponent implements OnInit {
 
     this.handleNodeClick = this.handleNodeClick.bind(this);
     this.handleArticleClick = this.handleArticleClick.bind(this);
+
+    this.sanitizer = sanitizer;
+
+    this.subscribe();
   }
 
   ngOnInit() {
@@ -103,6 +122,8 @@ export class ForestComponent implements OnInit {
 
     this.tree = new Tree(this.handleNodeClick);
   }
+
+  private handleLessonClose(): void {}
 
   private handleNodeClick(d: any): void {
     console.log('ForestComponent handleNodeClick d: ', d);
@@ -129,10 +150,9 @@ export class ForestComponent implements OnInit {
     // update the firestore
     console.log('ForestComponent handleArticleClick: ', d);
 
-    const userId = 'N2YlFyyqf0N2ClOaQ9ATAf4jqgi1';
+    const userId = this.userId;
     const timestamp = Number(new Date());
 
-    const userId = 1234;
     const name = d.name;
     const complexity = 5;
     const link = d.link;
@@ -153,7 +173,10 @@ export class ForestComponent implements OnInit {
       timestamp
     );
 
-    console.log('hey: ', this.myArticlesCollection);
+    console.log(
+      'ForestComponent handleArticleClick myArticlesCollection: ',
+      this.myArticlesCollection
+    );
 
     const artilcesRef = this.myArticlesCollection.ref;
 
@@ -218,5 +241,16 @@ export class ForestComponent implements OnInit {
 
   handleWarningClose(event: any) {
     this.warning.show = false;
+  }
+
+  private subscribe(): void {
+    this.firebaseAuth.authState.subscribe(res => {
+      if (res && res.uid) {
+        console.log('Forest - user is logged in: ', res.uid);
+        this.userId = res.uid;
+      } else {
+        console.log('Forest - user not logged in');
+      }
+    });
   }
 }

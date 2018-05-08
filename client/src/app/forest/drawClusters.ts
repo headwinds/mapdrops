@@ -93,15 +93,19 @@ export const drawArticleCluster = (
       nodesCluster = _;
     };
 
+    //if (force.hasOwnProperty('strength')) {
     force.strength = _ => {
       strength = _ == null ? strength : _;
       return force;
     };
+    //}
 
     return force;
   };
 
   function drawNodes(nodes, targetCenter, handleArticleClick) {
+    console.log('drawCluster - drawNodes ', arguments);
+
     const node = svg
       .selectAll('circle')
       .data(nodes)
@@ -154,7 +158,8 @@ export const drawArticleCluster = (
           return d.radius;
         });
     };
-
+    //const validStrength = cluster();
+    //if (validStrength.hasOwnProperty('strength')) {
     const force = d3
       .forceSimulation()
       // keep entire simulation balanced around screen center
@@ -168,10 +173,10 @@ export const drawArticleCluster = (
 
       .on('tick', layoutTick)
       .nodes(nodes);
+    //}
   }
 
   const draw = (nodes, target, handleArticleClick) => {
-    const target = d;
     console.log('drawClusters draw: ', d);
 
     drawNodes(nodes, target, handleArticleClick);

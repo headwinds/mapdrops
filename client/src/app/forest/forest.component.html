@@ -5,6 +5,17 @@
     <div><p>{{warning.message}}</p></div>
   </div>
 
+  <div class="lesson" *ngIf="lesson.show">
+    <div (click)='handleLessonClose($event)'>x</div>
+    <div>
+      <!--
+      <iframe [src]='lesson.url'
+      width="500" height="460" frameborder="0"
+        webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      -->
+  </div>
+
+
   <div id="heap">
 
   </div>

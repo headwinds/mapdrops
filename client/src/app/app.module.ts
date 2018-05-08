@@ -20,8 +20,12 @@ import { AngularFirestore } from 'angularfire2/firestore';
 import { environment } from '../environments/environment';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireAuth } from 'angularfire2/auth';
 import { ForestComponent } from './forest/forest.component';
 import { MessageService } from './chat/shared/services/message-service';
+import { SigninComponent } from './signin/signin.component';
+import { AuthService } from './services/auth/auth.service';
+import { FormsModule } from '@angular/forms';
 
 export const firebaseConfig = environment.firebaseConfig;
 
@@ -54,7 +58,7 @@ const routes: Routes = [
 
 @NgModule({
   //declarations: [AppComponent, GpxComponent, MapBoxComponent, ForestComponent],
-  declarations: [AppComponent, GpxComponent, ForestComponent],
+  declarations: [AppComponent, GpxComponent, ForestComponent, SigninComponent],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
@@ -64,7 +68,8 @@ const routes: Routes = [
     SharedModule,
     SocialLoginModule,
     AngularFireModule.initializeApp(firebaseConfig),
-    AngularFirestoreModule
+    AngularFirestoreModule,
+    FormsModule
   ],
   providers: [
     {
@@ -73,6 +78,8 @@ const routes: Routes = [
     },
     MapService,
     AngularFirestore,
+    AngularFireAuth,
+    AuthService,
     MessageService
   ],
   bootstrap: [AppComponent]

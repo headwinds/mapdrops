@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 //import { Broadcaster } from './shared/Broadcaster';
 import { Subscription } from 'rxjs/Subscription';
 import { MessageService } from './chat/shared/services/message-service';
+import { AngularFireAuth } from 'angularfire2/auth';
 
 @Component({
   selector: 'tcc-root',
@@ -13,7 +14,10 @@ export class AppComponent implements OnInit {
   title: string;
   username: string;
   subscription: Subscription;
-  constructor(private messageService: MessageService) {
+  constructor(
+    private messageService: MessageService,
+    public afAuth: AngularFireAuth
+  ) {
     this.appForestStyle = { 'pointer-events': 'none' };
     this.title = 'level up';
     this.username = 'not signed in';
@@ -33,6 +37,14 @@ export class AppComponent implements OnInit {
       if (message.key === 'userSignin') {
         this.username = message.data.name;
         console.log('app heard data: ', message);
+      }
+    });
+
+    this.afAuth.authState.subscribe(res => {
+      if (res && res.uid) {
+        console.log('App - user is logged in: ', res.uid);
+      } else {
+        console.log('App - user not logged in');
       }
     });
   }
