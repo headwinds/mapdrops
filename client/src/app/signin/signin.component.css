@@ -1,13 +1,13 @@
 [tcc-signin] {
   display: block;
-  height: 80px;
+  height: 40px;
 }
 .user {
   display: flex;
   flex-direction: row;
-  height: 80px;
+  height: 40px;
   margin: 10px;
-  padding: 5px;
+  padding: 0px;
 }
 
 .user p {

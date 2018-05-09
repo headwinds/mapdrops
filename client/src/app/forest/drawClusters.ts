@@ -23,7 +23,13 @@ export const drawArticleCluster = (
   const n = articles.length, // total number of nodes
     m = 2; // number of distinct clusters
 
-  const color = d3.scaleSequential(d3.interpolateRainbow).domain(d3.range(m));
+  const visitedColor = '#26757b';
+  const newColor = '#74e2dd';
+
+  //const color = d3.scaleSequential(d3.interpolateRainbow).domain(d3.range(m));
+  const color = () => {
+    return newColor;
+  };
 
   // The largest node for each cluster.
   const clusters = new Array(m);
@@ -33,8 +39,11 @@ export const drawArticleCluster = (
 
     return d3.range(n).map(mapIndex => {
       //console.log('what: ', mapIndex);
+      // should be based on activity but for now let's make them all the same size
+      const nodeRadius = maxRadius;
+
       let i = Math.floor(Math.random() * m),
-        r = Math.sqrt((i + 1) / m * -Math.log(Math.random())) * maxRadius,
+        r = maxRadius,
         d = {
           cluster: i,
           radius: r,

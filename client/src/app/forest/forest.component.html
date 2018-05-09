@@ -1,20 +1,22 @@
 <div forest [ngStyle]="forestStyle">
 
-  <div class="warning" *ngIf="warning.show">
-    <div (click)='handleWarningClose($event)'>x</div>
-    <div><p>{{warning.message}}</p></div>
+  <div class="warning" *ngIf="warning.show" [ngStyle]="{'top': warning.top, 'left': warning.left}">
+    <div style='display:flex;flex-direction:row; justify-content: space-between'>
+      <div><h1 style='font-size: 14px; margin: 7px; padding: 5px; color: #666; font-weight: normal'>Choose another node</h1></div>
+      <div (click)='handleWarningClose($event)' style='display:block;pointer-events:all;cursor: pointer; font-size: 18px; margin: 5px; padding: 5px; color: #666;'>x</div>
+    </div>
+    <div style='display: block; margin: 20px'><p>{{warning.message}}</p></div>
   </div>
 
-  <div class="lesson" *ngIf="lesson.show">
-    <div (click)='handleLessonClose($event)'>x</div>
-    <div>
-      <!--
+  <div class="lesson" *ngIf="lesson.show" [ngStyle]="{'top': lesson.top, 'left': lesson.left}">
+    <div style='display:flex;flex-direction:row; justify-content: space-between'>
+      <div><h1 style='font-size: 14px; margin: 7px; padding: 5px; color: #666; font-weight: normal'>{{lesson.name}}</h1></div>
+      <div (click)='handleLessonClose($event)' style='display:block;pointer-events:all;cursor: pointer; font-size: 18px; margin: 5px; padding: 5px; color: #666;'>x</div>
+    </div>
       <iframe [src]='lesson.url'
       width="500" height="460" frameborder="0"
         webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-      -->
   </div>
-
 
   <div id="heap">
 

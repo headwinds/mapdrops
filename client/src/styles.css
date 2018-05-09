@@ -4,6 +4,9 @@
 body {
   font-family: Helvetica;
   background-color: #5dbec6;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 
 button {

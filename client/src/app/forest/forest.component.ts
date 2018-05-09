@@ -11,7 +11,6 @@ import {
   AngularFirestoreCollection
 } from 'angularfire2/firestore';
 import { Observable } from 'rxjs/Observable';
-import { DomSanitizer } from '@angular/platform-browser';
 
 export interface IArticle {
   userId: string;
@@ -83,7 +82,9 @@ export class ForestComponent implements OnInit {
     url: this.sanitizer.bypassSecurityTrustResourceUrl(
       'https://chrisalbon.com/python/basics/priority_queues/'
     ),
-    show: true
+    show: false,
+    top: 0,
+    left: 0
   };
 
   constructor(
@@ -123,7 +124,13 @@ export class ForestComponent implements OnInit {
     this.tree = new Tree(this.handleNodeClick);
   }
 
-  private handleLessonClose(): void {}
+  private getSantizedUrl(url): SafeResourceUrl {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+
+  private handleLessonClose(): void {
+    this.lesson.show = false;
+  }
 
   private handleNodeClick(d: any): void {
     console.log('ForestComponent handleNodeClick d: ', d);
@@ -134,6 +141,8 @@ export class ForestComponent implements OnInit {
       this.warning.show = true;
       this.warning.message =
         'This is the start of your adventure. Venture north to explore other nodes';
+      this.warning.top = d.y + 'px';
+      this.warning.left = d.x + 'px';
     }
 
     // does it already have a cluster?
@@ -141,7 +150,7 @@ export class ForestComponent implements OnInit {
       this.tree.removeCluster(d);
     } else {
       // first cluster
-      const articles = this.tree.getArticles();
+      const articles = this.tree.getArticlesByCategory(d.data.name);
       this.tree.drawCluster(d, articles, this.handleArticleClick);
     }
   }
@@ -149,6 +158,14 @@ export class ForestComponent implements OnInit {
   private handleArticleClick(d: any): void {
     // update the firestore
     console.log('ForestComponent handleArticleClick: ', d);
+
+    // update the current lesson and show it
+    this.lesson.url = this.getSantizedUrl(d.link);
+    this.lesson.show = true;
+    // position the lesson near this node
+    this.lesson.top = Number(d.y - 100) + 'px';
+    this.lesson.left = Number(d.x - 150) + 'px';
+    this.lesson.name = d.name;
 
     const userId = this.userId;
     const timestamp = Number(new Date());

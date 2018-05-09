@@ -2,6 +2,22 @@
   pointer-events: none;
 }
 
+.warning {
+  display: block;
+  position: absolute;
+  width: 300px;
+  background: white;
+}
+
+.lesson {
+  display: block;
+  position: absolute;
+  z-index: 3;
+  top: 0px;
+  left: 0px;
+  background: white;
+}
+
 .node {
   cursor: pointer;
 }

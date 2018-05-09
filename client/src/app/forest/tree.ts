@@ -22,20 +22,24 @@ export default class Tree {
     });
   }
 
-  getArticles(): any[] {
+  public getArticlesByCategory(category): any[] {
+    return _.filter(this.articles, { category });
+  }
+
+  public getArticles(): any[] {
     return this.articles;
   }
 
-  drawLevels(links) {
+  public drawLevels(links) {
     const flatData = getFlatLevelsData();
     drawVerticalTree(flatData, this.handleNodeClick);
   }
 
-  drawCluster(d: any, articles: any[], handleArticleClick: Function) {
+  public drawCluster(d: any, articles: any[], handleArticleClick: Function) {
     drawArticleCluster(d, articles, handleArticleClick);
   }
 
-  removeCluster(d) {
+  public removeCluster(d) {
     removeArticleCluster(d);
   }
 }
