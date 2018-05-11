@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterContentInit } from '@angular/core';
-import { DomSanitizer } from '@angular/platform-browser';
+import { DomSanitizer, SafeResourceUrl } from '@angular/platform-browser';
 import * as d3 from 'd3';
 import Tree from './tree';
 import * as _ from 'lodash';
@@ -111,6 +111,8 @@ export class ForestComponent implements OnInit {
 
     this.sanitizer = sanitizer;
 
+    console.log('Forest contructor');
+
     this.subscribe();
   }
 
@@ -141,8 +143,8 @@ export class ForestComponent implements OnInit {
       this.warning.show = true;
       this.warning.message =
         'This is the start of your adventure. Venture north to explore other nodes';
-      this.warning.top = d.y + 'px';
-      this.warning.left = d.x + 'px';
+      this.warning.top = `${d.y}px`;
+      this.warning.left = `${d.x}px`;
     }
 
     // does it already have a cluster?

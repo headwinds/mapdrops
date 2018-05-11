@@ -26,6 +26,7 @@ import { MessageService } from './chat/shared/services/message-service';
 import { SigninComponent } from './signin/signin.component';
 import { AuthService } from './services/auth/auth.service';
 import { FormsModule } from '@angular/forms';
+import { WorldComponent } from './world/world.component';
 
 export const firebaseConfig = environment.firebaseConfig;
 
@@ -52,13 +53,19 @@ const routes: Routes = [
   { path: '', component: AppComponent },
   { path: 'auth/google', component: AppComponent },
   { path: 'hello', component: AppComponent },
-  { path: 'forest', component: ForestComponent }
+  { path: 'world', component: WorldComponent },
+  { path: 'forest', component: WorldComponent }
   //{ path: 'map', component: MapBoxComponent }
 ];
 
 @NgModule({
-  //declarations: [AppComponent, GpxComponent, MapBoxComponent, ForestComponent],
-  declarations: [AppComponent, GpxComponent, ForestComponent, SigninComponent],
+  declarations: [
+    AppComponent,
+    GpxComponent,
+    ForestComponent,
+    SigninComponent,
+    WorldComponent
+  ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,

@@ -162,20 +162,29 @@ export function drawVerticalTree(flatData, handleNodeClick) {
   const width = window.innerWidth - margin.right - margin.left;
   const height = window.innerHeight - margin.top - margin.bottom;
 
-  let nodes = getNodes(flatData, width, height, margin);
+  //let nodes = getNodes(flatData, width, height, margin);
 
   // append the svg obgect to the body of the page
   // appends a 'group' element to 'svg'
   // moves the 'group' element to the top left margin
+  /*
   const svg = d3
-      .select('#heap')
+      .select('#universe')
       .append('svg')
-      .attr('id', 'mine')
+      .attr('id', 'space')
       .attr('width', width + margin.left + margin.right)
       .attr('height', height + margin.top + margin.bottom),
     g = svg
       .append('g')
+      .attr('id', 'world')
       .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+  */
+
+  const g = d3.select('#world');
+
+  console.log('world ', g);
+
+  let nodes = getNodes(flatData, width, height, margin);
 
   // adds the links between the nodes
   const link = g

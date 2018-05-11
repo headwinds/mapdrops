@@ -102,12 +102,10 @@ export const drawArticleCluster = (
       nodesCluster = _;
     };
 
-    //if (force.hasOwnProperty('strength')) {
     force.strength = _ => {
       strength = _ == null ? strength : _;
       return force;
     };
-    //}
 
     return force;
   };

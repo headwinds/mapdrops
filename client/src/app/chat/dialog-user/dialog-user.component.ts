@@ -39,7 +39,7 @@ export class DialogUserComponent implements OnInit {
     //this.broadcaster = broadcaster;
     // skip signin
     this.onSave();
-    window.location.href = '/forest';
+    window.location.href = '/world';
   }
 
   ngOnInit() {}

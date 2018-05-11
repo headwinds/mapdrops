@@ -22,7 +22,12 @@ export class AppComponent implements OnInit {
     this.title = 'level up';
     this.username = 'not signed in';
 
-    //this.subscribe = this.subscribe.bind(this);
+    /*
+    NOTE:
+
+    see dialog-user.ts which skips to /world !
+
+    */
 
     this.subscribe();
   }
