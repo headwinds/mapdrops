@@ -75,7 +75,7 @@ export const drawArticleCluster = (
     let nodesCluster,
       strength = 0.1;
 
-    function force(alpha) {
+    const force = alpha => {
       // scale + curve alpha value
       alpha *= strength * alpha;
 
@@ -96,13 +96,13 @@ export const drawArticleCluster = (
           cluster.y += y;
         }
       });
-    }
+    };
 
-    force.initialize = function(_) {
+    force['initialize'] = function(_) {
       nodesCluster = _;
     };
 
-    force.strength = _ => {
+    force['strength'] = _ => {
       strength = _ == null ? strength : _;
       return force;
     };
@@ -113,6 +113,11 @@ export const drawArticleCluster = (
   function drawNodes(nodes, targetCenter, handleArticleClick) {
     console.log('drawCluster - drawNodes ', arguments);
 
+    const getNodeColor = d => {
+      const nodeColor = 'red';
+      return nodeColor;
+    };
+
     const node = svg
       .selectAll('circle')
       .data(nodes)
@@ -120,9 +125,7 @@ export const drawArticleCluster = (
       .append('g')
       .on('click', handleArticleClick)
       .append('circle')
-      .style('fill', function(d) {
-        return color(d.cluster / 10);
-      });
+      .style('fill', getNodeColor);
     /*
       .append('circle')
       .style('fill', function(d) {

@@ -49,8 +49,8 @@ export class ArticleEvent {
 export interface Message {
   show: boolean;
   message: string;
-  top: number;
-  left: number;
+  top: string;
+  left: string;
 }
 
 @Component({
@@ -73,8 +73,8 @@ export class ForestComponent implements OnInit {
   warning: Message = {
     show: false,
     message: '',
-    top: 0,
-    left: 0
+    top: '0px',
+    left: '0px'
   };
   userId: string;
   // https://stackoverflow.com/questions/37927657/unsafe-value-used-in-a-resource-url-context-with-angular-2
@@ -143,8 +143,10 @@ export class ForestComponent implements OnInit {
       this.warning.show = true;
       this.warning.message =
         'This is the start of your adventure. Venture north to explore other nodes';
-      this.warning.top = `${d.y}px`;
-      this.warning.left = `${d.x}px`;
+      //const topPos = String(d.y);
+      //const topPos = String(d.y);
+      this.warning.top = String(d.y) + 'px';
+      this.warning.left = String(d.x) + 'px';
     }
 
     // does it already have a cluster?

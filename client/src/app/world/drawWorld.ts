@@ -12,13 +12,16 @@ export function drawWorld() {
   // appends a 'group' element to 'svg'
   // moves the 'group' element to the top left margin
   const svg = d3
-      .select('#universe')
-      .append('svg')
-      .attr('id', 'space')
-      .attr('width', width + margin.left + margin.right)
-      .attr('height', height + margin.top + margin.bottom),
-    g = svg
-      .append('g')
-      .attr('id', 'world')
-      .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+    .select('#universe')
+    .append('svg')
+    .attr('id', 'space')
+    .attr('width', width + margin.left + margin.right)
+    .attr('height', height + margin.top + margin.bottom);
+
+  const world = svg
+    .append('g')
+    .attr('id', 'world')
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')');
+
+  return world;
 }
