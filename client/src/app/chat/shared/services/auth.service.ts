@@ -20,10 +20,10 @@ export class AuthService {
     const googleUrl: string = 'http://localhost:8080/auth/google';
     axios.get('http://localhost:8080/auth/google').then(
       response => {
-        console.log('weeeee');
+        console.log('AuthService success');
       },
       error => {
-        console.log('drink error: ', error);
+        console.log('AuthService fail: ', error);
       }
     );
     /*

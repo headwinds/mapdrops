@@ -27,6 +27,7 @@ import { SigninComponent } from './signin/signin.component';
 import { AuthService } from './services/auth/auth.service';
 import { FormsModule } from '@angular/forms';
 import { WorldComponent } from './world/world.component';
+import { WorldService } from './world/world.service';
 import { PilotComponent } from './pilot/pilot.component';
 
 export const firebaseConfig = environment.firebaseConfig;
@@ -89,7 +90,8 @@ const routes: Routes = [
     AngularFirestore,
     AngularFireAuth,
     AuthService,
-    MessageService
+    MessageService,
+    WorldService
   ],
   bootstrap: [AppComponent]
 })

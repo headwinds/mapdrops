@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-//import { Broadcaster } from './shared/Broadcaster';
 import { Subscription } from 'rxjs/Subscription';
 import { MessageService } from './chat/shared/services/message-service';
 import { AngularFireAuth } from 'angularfire2/auth';

@@ -37,3 +37,11 @@ export function drawPilots(world, pilotName) {
 
   return pilotContainer;
 }
+
+export function flyTo(coords, pilotName) {
+  const pilot = d3.select('#' + pilotName);
+
+  pilot
+    .transition()
+    .attr('transform', 'translate(' + coords[0] + ',' + coords[1] + ')');
+}

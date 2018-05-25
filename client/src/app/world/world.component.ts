@@ -1,7 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 import { drawWorld } from './drawWorld';
-import { drawPilot, drawPilots } from '../pilot/drawPilot';
+import { drawPilots, flyTo } from '../pilot/drawPilot';
 import { AngularFireAuth } from 'angularfire2/auth';
+import { WorldService } from './world.service';
+//import { WorldController } from './controllers/WorldController';
+import {
+  AngularFirestore,
+  AngularFirestoreDocument,
+  AngularFirestoreCollection
+} from 'angularfire2/firestore';
 import * as d3 from 'd3';
 
 @Component({
@@ -13,30 +20,30 @@ export class WorldComponent implements OnInit {
   public world: any;
   public pilot: any;
   public pilots: any;
-  public pilotName: string;
+  private worldService: WorldService;
 
-  constructor(private firebaseAuth: AngularFireAuth) {
-    this.subscribe();
+  constructor(private worldService: WorldService) {
+    //this.controller = new WorldController(afs);
+    //this.subscribe();
+    this.worldService = worldService;
+
+    const flights = this.worldService.getCategoryFlights();
+    this.worldService.subscribe(this);
+
+    this.handleSurfaceClick = this.handleSurfaceClick.bind(this);
   }
 
   ngOnInit() {
-    this.world = drawWorld();
+    this.world = drawWorld(this.handleSurfaceClick);
   }
 
-  private createWorld() {
-    this.pilots = drawPilots(this.world);
+  createWorld(pilotName: string) {
+    this.pilots = drawPilots(this.world, pilotName);
   }
 
-  private subscribe(): void {
-    this.firebaseAuth.authState.subscribe(res => {
-      if (res && res.uid) {
-        console.log('Pilot - user is logged in: ', res.uid);
-        //this.userId = res.uid;
-        this.pilotName = res.uid;
-        this.createWorld();
-      } else {
-        console.log('Pilot - user not logged in');
-      }
-    });
+  handleSurfaceClick(coords: any) {
+    //console.log('drawWorld - handleSurfaceClick - coords: ', coords);
+    const pilotName = this.worldService.getPilotName();
+    flyTo(coords, pilotName);
   }
 }

@@ -39,6 +39,7 @@ class Force {
 }
 */
 
+/*
 const force = alpha => {
   // scale + curve alpha value
   alpha *= strength * alpha;
@@ -70,3 +71,4 @@ force['strength'] = _ => {
   strength = _ == null ? strength : _;
   return force;
 };
+*/
